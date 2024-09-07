@@ -1,0 +1,558 @@
+#############params############
+cuda
+Task=Tacred, 5-shot
+Encoding model: bert
+pattern=hybridprompt
+mem=1, margin=0.3, gen=0, gen_num=0
+#############params############
+--------Round  0
+seed:  100
+#############params############
+cuda
+Task=Tacred, 5-shot
+Encoding model: bert
+pattern=hybridprompt
+mem=1, margin=0.3, gen=0, gen_num=0
+#############params############
+--------Round  0
+seed:  100
+data/CFRLTacred/CFRLdata_6_100_5_5/_process_BERT_hybridprompt_12token/train.pkl
+data/CFRLTacred/CFRLdata_6_100_5_5/_process_BERT_hybridprompt_12token/valid.pkl
+data/CFRLTacred/CFRLdata_6_100_5_5/_process_BERT_hybridprompt_12token/test.pkl
+Task_order: [7 3 0 5 4 1 6 2]
+prepared data!
+#############params############
+cuda
+Task=Tacred, 5-shot
+Encoding model: bert
+pattern=hybridprompt
+mem=1, margin=0.3, gen=0, gen_num=0
+#############params############
+--------Round  0
+seed:  100
+data/CFRLTacred/CFRLdata_6_100_5_5/_process_BERT_hybridprompt_12token/train.pkl
+data/CFRLTacred/CFRLdata_6_100_5_5/_process_BERT_hybridprompt_12token/valid.pkl
+data/CFRLTacred/CFRLdata_6_100_5_5/_process_BERT_hybridprompt_12token/test.pkl
+Task_order: [7 3 0 5 4 1 6 2]
+prepared data!
+#############params############
+cuda
+Task=Tacred, 5-shot
+Encoding model: bert
+pattern=hybridprompt
+mem=1, margin=0.3, gen=0, gen_num=0
+#############params############
+--------Round  0
+seed:  100
+data/CFRLTacred/CFRLdata_6_100_5_5/_process_BERT_hybridprompt_12token/train.pkl
+data/CFRLTacred/CFRLdata_6_100_5_5/_process_BERT_hybridprompt_12token/valid.pkl
+data/CFRLTacred/CFRLdata_6_100_5_5/_process_BERT_hybridprompt_12token/test.pkl
+Task_order: [7 3 0 5 4 1 6 2]
+prepared data!
+Clustering into  2  clusters
+Clusters:  [1 0 0 1 0 1]
+Losses:  24.484291076660156 11.09357738494873 -0.0
+CurrentTrain: epoch  0, batch     0 | loss: 24.4842911Losses:  22.786849975585938 9.646066665649414 -0.0
+CurrentTrain: epoch  0, batch     1 | loss: 22.7868500Losses:  22.146541595458984 9.043697357177734 -0.0
+CurrentTrain: epoch  0, batch     2 | loss: 22.1465416Losses:  23.206308364868164 10.202875137329102 -0.0
+CurrentTrain: epoch  0, batch     3 | loss: 23.2063084Losses:  22.90353012084961 9.971681594848633 -0.0
+CurrentTrain: epoch  0, batch     4 | loss: 22.9035301Losses:  20.097414016723633 7.433544635772705 -0.0
+CurrentTrain: epoch  0, batch     5 | loss: 20.0974140Losses:  20.193172454833984 7.51834774017334 -0.0
+CurrentTrain: epoch  0, batch     6 | loss: 20.1931725Losses:  21.41219139099121 9.035709381103516 -0.0
+CurrentTrain: epoch  0, batch     7 | loss: 21.4121914Losses:  22.61432647705078 10.191665649414062 -0.0
+CurrentTrain: epoch  0, batch     8 | loss: 22.6143265Losses:  21.027957916259766 8.755420684814453 -0.0
+CurrentTrain: epoch  0, batch     9 | loss: 21.0279579Losses:  20.298215866088867 8.105674743652344 -0.0
+CurrentTrain: epoch  0, batch    10 | loss: 20.2982159Losses:  19.365272521972656 7.297883033752441 -0.0
+CurrentTrain: epoch  0, batch    11 | loss: 19.3652725Losses:  20.557674407958984 8.341421127319336 -0.0
+CurrentTrain: epoch  0, batch    12 | loss: 20.5576744Losses:  20.136932373046875 8.216141700744629 -0.0
+CurrentTrain: epoch  0, batch    13 | loss: 20.1369324Losses:  20.84465789794922 9.098001480102539 -0.0
+CurrentTrain: epoch  0, batch    14 | loss: 20.8446579Losses:  18.70006561279297 7.007706642150879 -0.0
+CurrentTrain: epoch  0, batch    15 | loss: 18.7000656Losses:  21.491127014160156 10.272443771362305 -0.0
+CurrentTrain: epoch  0, batch    16 | loss: 21.4911270Losses:  23.605945587158203 12.354771614074707 -0.0
+CurrentTrain: epoch  0, batch    17 | loss: 23.6059456Losses:  25.177303314208984 13.677546501159668 -0.0
+CurrentTrain: epoch  0, batch    18 | loss: 25.1773033Losses:  19.79106903076172 8.275964736938477 -0.0
+CurrentTrain: epoch  0, batch    19 | loss: 19.7910690Losses:  19.52218246459961 8.179508209228516 -0.0
+CurrentTrain: epoch  0, batch    20 | loss: 19.5221825Losses:  21.686185836791992 9.94403076171875 -0.0
+CurrentTrain: epoch  0, batch    21 | loss: 21.6861858Losses:  20.54251480102539 9.001008987426758 -0.0
+CurrentTrain: epoch  0, batch    22 | loss: 20.5425148Losses:  19.086318969726562 8.195530891418457 -0.0
+CurrentTrain: epoch  0, batch    23 | loss: 19.0863190Losses:  19.318546295166016 8.248927116394043 -0.0
+CurrentTrain: epoch  0, batch    24 | loss: 19.3185463Losses:  18.264087677001953 7.126908302307129 -0.0
+CurrentTrain: epoch  0, batch    25 | loss: 18.2640877Losses:  20.066986083984375 9.275312423706055 -0.0
+CurrentTrain: epoch  0, batch    26 | loss: 20.0669861Losses:  18.58072853088379 8.231582641601562 -0.0
+CurrentTrain: epoch  0, batch    27 | loss: 18.5807285Losses:  20.594148635864258 9.801923751831055 -0.0
+CurrentTrain: epoch  0, batch    28 | loss: 20.5941486Losses:  17.435924530029297 6.587273597717285 -0.0
+CurrentTrain: epoch  0, batch    29 | loss: 17.4359245Losses:  20.328285217285156 9.964601516723633 -0.0
+CurrentTrain: epoch  0, batch    30 | loss: 20.3282852Losses:  18.943336486816406 8.328694343566895 -0.0
+CurrentTrain: epoch  0, batch    31 | loss: 18.9433365Losses:  18.722625732421875 8.725318908691406 -0.0
+CurrentTrain: epoch  0, batch    32 | loss: 18.7226257Losses:  18.309799194335938 8.058145523071289 -0.0
+CurrentTrain: epoch  0, batch    33 | loss: 18.3097992Losses:  21.383808135986328 11.603239059448242 -0.0
+CurrentTrain: epoch  0, batch    34 | loss: 21.3838081Losses:  20.344257354736328 10.351531982421875 -0.0
+CurrentTrain: epoch  0, batch    35 | loss: 20.3442574Losses:  18.960163116455078 8.588579177856445 -0.0
+CurrentTrain: epoch  0, batch    36 | loss: 18.9601631Losses:  11.625056266784668 1.7340437173843384 -0.0
+CurrentTrain: epoch  0, batch    37 | loss: 11.6250563Losses:  16.442665100097656 6.579023361206055 -0.0
+CurrentTrain: epoch  1, batch     0 | loss: 16.4426651Losses:  17.101051330566406 6.645983695983887 -0.0
+CurrentTrain: epoch  1, batch     1 | loss: 17.1010513Losses:  16.871103286743164 7.576630592346191 -0.0
+CurrentTrain: epoch  1, batch     2 | loss: 16.8711033Losses:  15.486275672912598 5.896018028259277 -0.0
+CurrentTrain: epoch  1, batch     3 | loss: 15.4862757Losses:  15.93045711517334 7.013195037841797 -0.0
+CurrentTrain: epoch  1, batch     4 | loss: 15.9304571Losses:  20.495412826538086 10.408208847045898 -0.0
+CurrentTrain: epoch  1, batch     5 | loss: 20.4954128Losses:  16.792444229125977 7.405594348907471 -0.0
+CurrentTrain: epoch  1, batch     6 | loss: 16.7924442Losses:  16.99728012084961 7.6896233558654785 -0.0
+CurrentTrain: epoch  1, batch     7 | loss: 16.9972801Losses:  18.40041160583496 9.159364700317383 -0.0
+CurrentTrain: epoch  1, batch     8 | loss: 18.4004116Losses:  16.033971786499023 6.781052112579346 -0.0
+CurrentTrain: epoch  1, batch     9 | loss: 16.0339718Losses:  18.23338508605957 8.629507064819336 -0.0
+CurrentTrain: epoch  1, batch    10 | loss: 18.2333851Losses:  15.808340072631836 5.987419605255127 -0.0
+CurrentTrain: epoch  1, batch    11 | loss: 15.8083401Losses:  16.809457778930664 7.004868507385254 -0.0
+CurrentTrain: epoch  1, batch    12 | loss: 16.8094578Losses:  14.408178329467773 5.78718376159668 -0.0
+CurrentTrain: epoch  1, batch    13 | loss: 14.4081783Losses:  16.868511199951172 7.423667907714844 -0.0
+CurrentTrain: epoch  1, batch    14 | loss: 16.8685112Losses:  15.9268159866333 6.880913734436035 -0.0
+CurrentTrain: epoch  1, batch    15 | loss: 15.9268160Losses:  16.181894302368164 7.116952896118164 -0.0
+CurrentTrain: epoch  1, batch    16 | loss: 16.1818943Losses:  18.18048095703125 8.785223007202148 -0.0
+CurrentTrain: epoch  1, batch    17 | loss: 18.1804810Losses:  15.598489761352539 6.667312145233154 -0.0
+CurrentTrain: epoch  1, batch    18 | loss: 15.5984898Losses:  18.324548721313477 8.800464630126953 -0.0
+CurrentTrain: epoch  1, batch    19 | loss: 18.3245487Losses:  16.593320846557617 7.16705322265625 -0.0
+CurrentTrain: epoch  1, batch    20 | loss: 16.5933208Losses:  19.343212127685547 9.711788177490234 -0.0
+CurrentTrain: epoch  1, batch    21 | loss: 19.3432121Losses:  16.137928009033203 7.25899600982666 -0.0
+CurrentTrain: epoch  1, batch    22 | loss: 16.1379280Losses:  16.05998992919922 6.859920501708984 -0.0
+CurrentTrain: epoch  1, batch    23 | loss: 16.0599899Losses:  16.694801330566406 7.747344017028809 -0.0
+CurrentTrain: epoch  1, batch    24 | loss: 16.6948013Losses:  16.26287841796875 7.734962463378906 -0.0
+CurrentTrain: epoch  1, batch    25 | loss: 16.2628784Losses:  19.06183433532715 9.39748764038086 -0.0
+CurrentTrain: epoch  1, batch    26 | loss: 19.0618343Losses:  17.82927703857422 9.53864860534668 -0.0
+CurrentTrain: epoch  1, batch    27 | loss: 17.8292770Losses:  20.472856521606445 11.511785507202148 -0.0
+CurrentTrain: epoch  1, batch    28 | loss: 20.4728565Losses:  16.005081176757812 7.919685363769531 -0.0
+CurrentTrain: epoch  1, batch    29 | loss: 16.0050812Losses:  14.685606002807617 5.8891777992248535 -0.0
+CurrentTrain: epoch  1, batch    30 | loss: 14.6856060Losses:  18.78046226501465 9.308300018310547 -0.0
+CurrentTrain: epoch  1, batch    31 | loss: 18.7804623Losses:  15.294122695922852 6.124134063720703 -0.0
+CurrentTrain: epoch  1, batch    32 | loss: 15.2941227Losses:  15.685734748840332 6.970768928527832 -0.0
+CurrentTrain: epoch  1, batch    33 | loss: 15.6857347Losses:  14.875210762023926 6.371050834655762 -0.0
+CurrentTrain: epoch  1, batch    34 | loss: 14.8752108Losses:  14.91103744506836 6.520541667938232 -0.0
+CurrentTrain: epoch  1, batch    35 | loss: 14.9110374Losses:  15.218582153320312 6.4934468269348145 -0.0
+CurrentTrain: epoch  1, batch    36 | loss: 15.2185822Losses:  9.92427921295166 1.1628615856170654 -0.0
+CurrentTrain: epoch  1, batch    37 | loss: 9.9242792Losses:  12.529889106750488 4.884032249450684 -0.0
+CurrentTrain: epoch  2, batch     0 | loss: 12.5298891Losses:  15.353628158569336 6.654603481292725 -0.0
+CurrentTrain: epoch  2, batch     1 | loss: 15.3536282Losses:  14.646865844726562 5.670881271362305 -0.0
+CurrentTrain: epoch  2, batch     2 | loss: 14.6468658Losses:  18.101390838623047 9.974207878112793 -0.0
+CurrentTrain: epoch  2, batch     3 | loss: 18.1013908Losses:  18.865848541259766 9.158103942871094 -0.0
+CurrentTrain: epoch  2, batch     4 | loss: 18.8658485Losses:  22.493392944335938 12.803984642028809 -0.0
+CurrentTrain: epoch  2, batch     5 | loss: 22.4933929Losses:  14.105881690979004 5.331783294677734 -0.0
+CurrentTrain: epoch  2, batch     6 | loss: 14.1058817Losses:  15.944729804992676 7.3445844650268555 -0.0
+CurrentTrain: epoch  2, batch     7 | loss: 15.9447298Losses:  14.878652572631836 6.679802894592285 -0.0
+CurrentTrain: epoch  2, batch     8 | loss: 14.8786526Losses:  14.804874420166016 6.363210201263428 -0.0
+CurrentTrain: epoch  2, batch     9 | loss: 14.8048744Losses:  14.260708808898926 6.416150093078613 -0.0
+CurrentTrain: epoch  2, batch    10 | loss: 14.2607088Losses:  15.430488586425781 6.7859296798706055 -0.0
+CurrentTrain: epoch  2, batch    11 | loss: 15.4304886Losses:  13.859420776367188 5.958731651306152 -0.0
+CurrentTrain: epoch  2, batch    12 | loss: 13.8594208Losses:  13.926494598388672 6.098959922790527 -0.0
+CurrentTrain: epoch  2, batch    13 | loss: 13.9264946Losses:  17.210254669189453 10.051824569702148 -0.0
+CurrentTrain: epoch  2, batch    14 | loss: 17.2102547Losses:  15.69797134399414 7.6251397132873535 -0.0
+CurrentTrain: epoch  2, batch    15 | loss: 15.6979713Losses:  15.273120880126953 6.410971641540527 -0.0
+CurrentTrain: epoch  2, batch    16 | loss: 15.2731209Losses:  15.083209037780762 5.982058525085449 -0.0
+CurrentTrain: epoch  2, batch    17 | loss: 15.0832090Losses:  13.809980392456055 5.784006118774414 -0.0
+CurrentTrain: epoch  2, batch    18 | loss: 13.8099804Losses:  14.850337028503418 6.758004188537598 -0.0
+CurrentTrain: epoch  2, batch    19 | loss: 14.8503370Losses:  14.827433586120605 7.13981294631958 -0.0
+CurrentTrain: epoch  2, batch    20 | loss: 14.8274336Losses:  14.230279922485352 6.496602535247803 -0.0
+CurrentTrain: epoch  2, batch    21 | loss: 14.2302799Losses:  14.065319061279297 6.817283630371094 -0.0
+CurrentTrain: epoch  2, batch    22 | loss: 14.0653191Losses:  12.79887580871582 5.063023567199707 -0.0
+CurrentTrain: epoch  2, batch    23 | loss: 12.7988758Losses:  13.445688247680664 5.541528701782227 -0.0
+CurrentTrain: epoch  2, batch    24 | loss: 13.4456882Losses:  14.263945579528809 5.6428022384643555 -0.0
+CurrentTrain: epoch  2, batch    25 | loss: 14.2639456Losses:  13.881536483764648 6.6055426597595215 -0.0
+CurrentTrain: epoch  2, batch    26 | loss: 13.8815365Losses:  15.6709623336792 6.621705055236816 -0.0
+CurrentTrain: epoch  2, batch    27 | loss: 15.6709623Losses:  13.12844467163086 6.567111015319824 -0.0
+CurrentTrain: epoch  2, batch    28 | loss: 13.1284447Losses:  13.919290542602539 5.952980995178223 -0.0
+CurrentTrain: epoch  2, batch    29 | loss: 13.9192905Losses:  16.873912811279297 9.062623977661133 -0.0
+CurrentTrain: epoch  2, batch    30 | loss: 16.8739128Losses:  13.060903549194336 5.852973461151123 -0.0
+CurrentTrain: epoch  2, batch    31 | loss: 13.0609035Losses:  16.390132904052734 8.872234344482422 -0.0
+CurrentTrain: epoch  2, batch    32 | loss: 16.3901329Losses:  13.797124862670898 5.945656776428223 -0.0
+CurrentTrain: epoch  2, batch    33 | loss: 13.7971249Losses:  17.80034637451172 8.522038459777832 -0.0
+CurrentTrain: epoch  2, batch    34 | loss: 17.8003464Losses:  15.722444534301758 8.490673065185547 -0.0
+CurrentTrain: epoch  2, batch    35 | loss: 15.7224445Losses:  16.17369842529297 8.10380744934082 -0.0
+CurrentTrain: epoch  2, batch    36 | loss: 16.1736984Losses:  10.177732467651367 2.6121301651000977 -0.0
+CurrentTrain: epoch  2, batch    37 | loss: 10.1777325Losses:  14.365272521972656 6.616792678833008 -0.0
+CurrentTrain: epoch  3, batch     0 | loss: 14.3652725Losses:  21.039833068847656 13.734432220458984 -0.0
+CurrentTrain: epoch  3, batch     1 | loss: 21.0398331Losses:  14.336481094360352 6.321192741394043 -0.0
+CurrentTrain: epoch  3, batch     2 | loss: 14.3364811Losses:  14.35009479522705 5.931670188903809 -0.0
+CurrentTrain: epoch  3, batch     3 | loss: 14.3500948Losses:  13.435758590698242 5.696652412414551 -0.0
+CurrentTrain: epoch  3, batch     4 | loss: 13.4357586Losses:  14.484556198120117 6.132818698883057 -0.0
+CurrentTrain: epoch  3, batch     5 | loss: 14.4845562Losses:  16.479843139648438 8.010622024536133 -0.0
+CurrentTrain: epoch  3, batch     6 | loss: 16.4798431Losses:  11.625627517700195 4.811498165130615 -0.0
+CurrentTrain: epoch  3, batch     7 | loss: 11.6256275Losses:  13.080835342407227 5.559329032897949 -0.0
+CurrentTrain: epoch  3, batch     8 | loss: 13.0808353Losses:  12.976127624511719 5.182727813720703 -0.0
+CurrentTrain: epoch  3, batch     9 | loss: 12.9761276Losses:  13.57219409942627 6.197247505187988 -0.0
+CurrentTrain: epoch  3, batch    10 | loss: 13.5721941Losses:  14.457958221435547 7.705490589141846 -0.0
+CurrentTrain: epoch  3, batch    11 | loss: 14.4579582Losses:  12.954835891723633 4.983952522277832 -0.0
+CurrentTrain: epoch  3, batch    12 | loss: 12.9548359Losses:  14.916476249694824 6.059971809387207 -0.0
+CurrentTrain: epoch  3, batch    13 | loss: 14.9164762Losses:  13.399383544921875 5.690683364868164 -0.0
+CurrentTrain: epoch  3, batch    14 | loss: 13.3993835Losses:  14.256828308105469 6.4976043701171875 -0.0
+CurrentTrain: epoch  3, batch    15 | loss: 14.2568283Losses:  15.1793212890625 6.557483673095703 -0.0
+CurrentTrain: epoch  3, batch    16 | loss: 15.1793213Losses:  15.124011993408203 7.15532922744751 -0.0
+CurrentTrain: epoch  3, batch    17 | loss: 15.1240120Losses:  13.817989349365234 6.276711463928223 -0.0
+CurrentTrain: epoch  3, batch    18 | loss: 13.8179893Losses:  15.140745162963867 6.817623615264893 -0.0
+CurrentTrain: epoch  3, batch    19 | loss: 15.1407452Losses:  20.489351272583008 12.827505111694336 -0.0
+CurrentTrain: epoch  3, batch    20 | loss: 20.4893513Losses:  13.786580085754395 6.320526599884033 -0.0
+CurrentTrain: epoch  3, batch    21 | loss: 13.7865801Losses:  15.43614387512207 6.905430316925049 -0.0
+CurrentTrain: epoch  3, batch    22 | loss: 15.4361439Losses:  14.944477081298828 6.943704128265381 -0.0
+CurrentTrain: epoch  3, batch    23 | loss: 14.9444771Losses:  12.474298477172852 5.616710662841797 -0.0
+CurrentTrain: epoch  3, batch    24 | loss: 12.4742985Losses:  16.15869903564453 8.954134941101074 -0.0
+CurrentTrain: epoch  3, batch    25 | loss: 16.1586990Losses:  13.372758865356445 6.464221000671387 -0.0
+CurrentTrain: epoch  3, batch    26 | loss: 13.3727589Losses:  16.207740783691406 7.668802261352539 -0.0
+CurrentTrain: epoch  3, batch    27 | loss: 16.2077408Losses:  12.51959228515625 4.772591590881348 -0.0
+CurrentTrain: epoch  3, batch    28 | loss: 12.5195923Losses:  13.524528503417969 7.424432754516602 -0.0
+CurrentTrain: epoch  3, batch    29 | loss: 13.5245285Losses:  13.138760566711426 5.277498245239258 -0.0
+CurrentTrain: epoch  3, batch    30 | loss: 13.1387606Losses:  14.800041198730469 6.879961967468262 -0.0
+CurrentTrain: epoch  3, batch    31 | loss: 14.8000412Losses:  16.48734474182129 9.919774055480957 -0.0
+CurrentTrain: epoch  3, batch    32 | loss: 16.4873447Losses:  13.744590759277344 7.4745259284973145 -0.0
+CurrentTrain: epoch  3, batch    33 | loss: 13.7445908Losses:  12.75471019744873 5.7008819580078125 -0.0
+CurrentTrain: epoch  3, batch    34 | loss: 12.7547102Losses:  12.688048362731934 5.515523433685303 -0.0
+CurrentTrain: epoch  3, batch    35 | loss: 12.6880484Losses:  12.902756690979004 5.728215217590332 -0.0
+CurrentTrain: epoch  3, batch    36 | loss: 12.9027567Losses:  9.954631805419922 3.0407488346099854 -0.0
+CurrentTrain: epoch  3, batch    37 | loss: 9.9546318Losses:  13.538217544555664 5.880096435546875 -0.0
+CurrentTrain: epoch  4, batch     0 | loss: 13.5382175Losses:  12.868948936462402 5.776017189025879 -0.0
+CurrentTrain: epoch  4, batch     1 | loss: 12.8689489Losses:  13.05322551727295 6.871581554412842 -0.0
+CurrentTrain: epoch  4, batch     2 | loss: 13.0532255Losses:  14.085168838500977 6.723466873168945 -0.0
+CurrentTrain: epoch  4, batch     3 | loss: 14.0851688Losses:  15.75893497467041 8.059171676635742 -0.0
+CurrentTrain: epoch  4, batch     4 | loss: 15.7589350Losses:  12.363733291625977 5.3065185546875 -0.0
+CurrentTrain: epoch  4, batch     5 | loss: 12.3637333Losses:  13.979130744934082 7.64540958404541 -0.0
+CurrentTrain: epoch  4, batch     6 | loss: 13.9791307Losses:  12.03931999206543 4.635382652282715 -0.0
+CurrentTrain: epoch  4, batch     7 | loss: 12.0393200Losses:  18.28139877319336 9.432510375976562 -0.0
+CurrentTrain: epoch  4, batch     8 | loss: 18.2813988Losses:  12.680774688720703 4.931866645812988 -0.0
+CurrentTrain: epoch  4, batch     9 | loss: 12.6807747Losses:  15.348891258239746 7.893283367156982 -0.0
+CurrentTrain: epoch  4, batch    10 | loss: 15.3488913Losses:  11.422733306884766 4.986667633056641 -0.0
+CurrentTrain: epoch  4, batch    11 | loss: 11.4227333Losses:  15.57034969329834 7.842288494110107 -0.0
+CurrentTrain: epoch  4, batch    12 | loss: 15.5703497Losses:  11.329901695251465 4.431328773498535 -0.0
+CurrentTrain: epoch  4, batch    13 | loss: 11.3299017Losses:  16.442434310913086 8.331310272216797 -0.0
+CurrentTrain: epoch  4, batch    14 | loss: 16.4424343Losses:  15.363147735595703 8.302762985229492 -0.0
+CurrentTrain: epoch  4, batch    15 | loss: 15.3631477Losses:  12.51111888885498 5.131707191467285 -0.0
+CurrentTrain: epoch  4, batch    16 | loss: 12.5111189Losses:  13.201292037963867 6.013570785522461 -0.0
+CurrentTrain: epoch  4, batch    17 | loss: 13.2012920Losses:  11.9542875289917 5.227397918701172 -0.0
+CurrentTrain: epoch  4, batch    18 | loss: 11.9542875Losses:  12.113625526428223 4.741415500640869 -0.0
+CurrentTrain: epoch  4, batch    19 | loss: 12.1136255Losses:  13.043365478515625 6.264965534210205 -0.0
+CurrentTrain: epoch  4, batch    20 | loss: 13.0433655Losses:  13.134180068969727 5.816242694854736 -0.0
+CurrentTrain: epoch  4, batch    21 | loss: 13.1341801Losses:  12.316089630126953 5.012795448303223 -0.0
+CurrentTrain: epoch  4, batch    22 | loss: 12.3160896Losses:  12.211580276489258 5.981380462646484 -0.0
+CurrentTrain: epoch  4, batch    23 | loss: 12.2115803Losses:  13.381049156188965 6.052309989929199 -0.0
+CurrentTrain: epoch  4, batch    24 | loss: 13.3810492Losses:  16.904733657836914 8.87432861328125 -0.0
+CurrentTrain: epoch  4, batch    25 | loss: 16.9047337Losses:  12.331690788269043 5.389676094055176 -0.0
+CurrentTrain: epoch  4, batch    26 | loss: 12.3316908Losses:  15.72543716430664 6.574335098266602 -0.0
+CurrentTrain: epoch  4, batch    27 | loss: 15.7254372Losses:  10.561391830444336 3.804800510406494 -0.0
+CurrentTrain: epoch  4, batch    28 | loss: 10.5613918Losses:  13.424135208129883 6.3454484939575195 -0.0
+CurrentTrain: epoch  4, batch    29 | loss: 13.4241352Losses:  13.811635971069336 6.349462509155273 -0.0
+CurrentTrain: epoch  4, batch    30 | loss: 13.8116360Losses:  16.522171020507812 10.00928020477295 -0.0
+CurrentTrain: epoch  4, batch    31 | loss: 16.5221710Losses:  13.549663543701172 5.271859169006348 -0.0
+CurrentTrain: epoch  4, batch    32 | loss: 13.5496635Losses:  12.859172821044922 6.2018842697143555 -0.0
+CurrentTrain: epoch  4, batch    33 | loss: 12.8591728Losses:  15.57817268371582 7.214189529418945 -0.0
+CurrentTrain: epoch  4, batch    34 | loss: 15.5781727Losses:  12.632911682128906 5.260801315307617 -0.0
+CurrentTrain: epoch  4, batch    35 | loss: 12.6329117Losses:  12.30424976348877 5.367195129394531 -0.0
+CurrentTrain: epoch  4, batch    36 | loss: 12.3042498Losses:  8.828350067138672 1.0146969556808472 -0.0
+CurrentTrain: epoch  4, batch    37 | loss: 8.8283501Losses:  12.695700645446777 6.507469177246094 -0.0
+CurrentTrain: epoch  5, batch     0 | loss: 12.6957006Losses:  13.227701187133789 5.899883270263672 -0.0
+CurrentTrain: epoch  5, batch     1 | loss: 13.2277012Losses:  14.000346183776855 6.241747856140137 -0.0
+CurrentTrain: epoch  5, batch     2 | loss: 14.0003462Losses:  14.084667205810547 6.5360822677612305 -0.0
+CurrentTrain: epoch  5, batch     3 | loss: 14.0846672Losses:  12.741546630859375 5.282155513763428 -0.0
+CurrentTrain: epoch  5, batch     4 | loss: 12.7415466Losses:  13.227107048034668 5.867283821105957 -0.0
+CurrentTrain: epoch  5, batch     5 | loss: 13.2271070Losses:  12.369928359985352 4.678805828094482 -0.0
+CurrentTrain: epoch  5, batch     6 | loss: 12.3699284Losses:  13.034517288208008 5.539697170257568 -0.0
+CurrentTrain: epoch  5, batch     7 | loss: 13.0345173Losses:  13.948087692260742 6.143494606018066 -0.0
+CurrentTrain: epoch  5, batch     8 | loss: 13.9480877Losses:  12.482772827148438 5.466446399688721 -0.0
+CurrentTrain: epoch  5, batch     9 | loss: 12.4827728Losses:  12.454456329345703 5.196478366851807 -0.0
+CurrentTrain: epoch  5, batch    10 | loss: 12.4544563Losses:  12.319214820861816 4.882311820983887 -0.0
+CurrentTrain: epoch  5, batch    11 | loss: 12.3192148Losses:  11.428202629089355 4.709278106689453 -0.0
+CurrentTrain: epoch  5, batch    12 | loss: 11.4282026Losses:  11.659285545349121 4.448663711547852 -0.0
+CurrentTrain: epoch  5, batch    13 | loss: 11.6592855Losses:  12.307174682617188 4.592329978942871 -0.0
+CurrentTrain: epoch  5, batch    14 | loss: 12.3071747Losses:  15.096515655517578 7.758608818054199 -0.0
+CurrentTrain: epoch  5, batch    15 | loss: 15.0965157Losses:  12.088963508605957 6.2403154373168945 -0.0
+CurrentTrain: epoch  5, batch    16 | loss: 12.0889635Losses:  12.498266220092773 6.225338935852051 -0.0
+CurrentTrain: epoch  5, batch    17 | loss: 12.4982662Losses:  13.790145874023438 6.33962345123291 -0.0
+CurrentTrain: epoch  5, batch    18 | loss: 13.7901459Losses:  15.743623733520508 7.329254150390625 -0.0
+CurrentTrain: epoch  5, batch    19 | loss: 15.7436237Losses:  11.66822624206543 5.355057716369629 -0.0
+CurrentTrain: epoch  5, batch    20 | loss: 11.6682262Losses:  12.198512077331543 5.473367691040039 -0.0
+CurrentTrain: epoch  5, batch    21 | loss: 12.1985121Losses:  10.936223030090332 4.509642601013184 -0.0
+CurrentTrain: epoch  5, batch    22 | loss: 10.9362230Losses:  11.146800994873047 4.279393196105957 -0.0
+CurrentTrain: epoch  5, batch    23 | loss: 11.1468010Losses:  13.967605590820312 6.144975185394287 -0.0
+CurrentTrain: epoch  5, batch    24 | loss: 13.9676056Losses:  10.829509735107422 4.582178115844727 -0.0
+CurrentTrain: epoch  5, batch    25 | loss: 10.8295097Losses:  11.900751113891602 5.205649375915527 -0.0
+CurrentTrain: epoch  5, batch    26 | loss: 11.9007511Losses:  16.701168060302734 10.11662769317627 -0.0
+CurrentTrain: epoch  5, batch    27 | loss: 16.7011681Losses:  17.98267364501953 8.960708618164062 -0.0
+CurrentTrain: epoch  5, batch    28 | loss: 17.9826736Losses:  11.068034172058105 3.7659947872161865 -0.0
+CurrentTrain: epoch  5, batch    29 | loss: 11.0680342Losses:  12.390626907348633 6.23953914642334 -0.0
+CurrentTrain: epoch  5, batch    30 | loss: 12.3906269Losses:  13.149271011352539 6.687117576599121 -0.0
+CurrentTrain: epoch  5, batch    31 | loss: 13.1492710Losses:  15.09327507019043 9.428226470947266 -0.0
+CurrentTrain: epoch  5, batch    32 | loss: 15.0932751Losses:  13.842879295349121 6.790816307067871 -0.0
+CurrentTrain: epoch  5, batch    33 | loss: 13.8428793Losses:  10.635223388671875 3.8633408546447754 -0.0
+CurrentTrain: epoch  5, batch    34 | loss: 10.6352234Losses:  13.439264297485352 7.388665199279785 -0.0
+CurrentTrain: epoch  5, batch    35 | loss: 13.4392643Losses:  11.820623397827148 4.6963067054748535 -0.0
+CurrentTrain: epoch  5, batch    36 | loss: 11.8206234Losses:  7.318852424621582 1.3309223651885986 -0.0
+CurrentTrain: epoch  5, batch    37 | loss: 7.3188524Losses:  11.656665802001953 5.793758392333984 -0.0
+CurrentTrain: epoch  6, batch     0 | loss: 11.6566658Losses:  13.192296981811523 6.181687355041504 -0.0
+CurrentTrain: epoch  6, batch     1 | loss: 13.1922970Losses:  15.37834358215332 8.2137451171875 -0.0
+CurrentTrain: epoch  6, batch     2 | loss: 15.3783436Losses:  11.091800689697266 4.6831488609313965 -0.0
+CurrentTrain: epoch  6, batch     3 | loss: 11.0918007Losses:  12.283970832824707 5.929340362548828 -0.0
+CurrentTrain: epoch  6, batch     4 | loss: 12.2839708Losses:  11.50403881072998 5.388874053955078 -0.0
+CurrentTrain: epoch  6, batch     5 | loss: 11.5040388Losses:  16.52977752685547 9.495426177978516 -0.0
+CurrentTrain: epoch  6, batch     6 | loss: 16.5297775Losses:  11.092159271240234 4.4821062088012695 -0.0
+CurrentTrain: epoch  6, batch     7 | loss: 11.0921593Losses:  11.753315925598145 5.811083793640137 -0.0
+CurrentTrain: epoch  6, batch     8 | loss: 11.7533159Losses:  11.005868911743164 4.764487266540527 -0.0
+CurrentTrain: epoch  6, batch     9 | loss: 11.0058689Losses:  10.004361152648926 4.016512870788574 -0.0
+CurrentTrain: epoch  6, batch    10 | loss: 10.0043612Losses:  11.559213638305664 5.063666343688965 -0.0
+CurrentTrain: epoch  6, batch    11 | loss: 11.5592136Losses:  9.923896789550781 4.174312591552734 -0.0
+CurrentTrain: epoch  6, batch    12 | loss: 9.9238968Losses:  11.476613998413086 5.794156551361084 -0.0
+CurrentTrain: epoch  6, batch    13 | loss: 11.4766140Losses:  10.50594711303711 4.278727054595947 -0.0
+CurrentTrain: epoch  6, batch    14 | loss: 10.5059471Losses:  9.898641586303711 4.323912620544434 -0.0
+CurrentTrain: epoch  6, batch    15 | loss: 9.8986416Losses:  13.282705307006836 6.759347915649414 -0.0
+CurrentTrain: epoch  6, batch    16 | loss: 13.2827053Losses:  12.541927337646484 6.790966987609863 -0.0
+CurrentTrain: epoch  6, batch    17 | loss: 12.5419273Losses:  11.5656156539917 5.329923152923584 -0.0
+CurrentTrain: epoch  6, batch    18 | loss: 11.5656157Losses:  12.765180587768555 6.939658164978027 -0.0
+CurrentTrain: epoch  6, batch    19 | loss: 12.7651806Losses:  15.644393920898438 8.73744010925293 -0.0
+CurrentTrain: epoch  6, batch    20 | loss: 15.6443939Losses:  11.521110534667969 4.2828779220581055 -0.0
+CurrentTrain: epoch  6, batch    21 | loss: 11.5211105Losses:  11.991358757019043 5.597567558288574 -0.0
+CurrentTrain: epoch  6, batch    22 | loss: 11.9913588Losses:  10.168198585510254 3.755863904953003 -0.0
+CurrentTrain: epoch  6, batch    23 | loss: 10.1681986Losses:  11.833185195922852 6.267510414123535 -0.0
+CurrentTrain: epoch  6, batch    24 | loss: 11.8331852Losses:  15.616840362548828 8.148209571838379 -0.0
+CurrentTrain: epoch  6, batch    25 | loss: 15.6168404Losses:  14.940370559692383 7.967078685760498 -0.0
+CurrentTrain: epoch  6, batch    26 | loss: 14.9403706Losses:  11.997435569763184 6.096098899841309 -0.0
+CurrentTrain: epoch  6, batch    27 | loss: 11.9974356Losses:  12.917049407958984 6.7894110679626465 -0.0
+CurrentTrain: epoch  6, batch    28 | loss: 12.9170494Losses:  12.64517593383789 6.6475725173950195 -0.0
+CurrentTrain: epoch  6, batch    29 | loss: 12.6451759Losses:  12.525120735168457 6.215219497680664 -0.0
+CurrentTrain: epoch  6, batch    30 | loss: 12.5251207Losses:  14.437755584716797 6.714638710021973 -0.0
+CurrentTrain: epoch  6, batch    31 | loss: 14.4377556Losses:  10.800213813781738 5.279626846313477 -0.0
+CurrentTrain: epoch  6, batch    32 | loss: 10.8002138Losses:  11.747827529907227 4.968986511230469 -0.0
+CurrentTrain: epoch  6, batch    33 | loss: 11.7478275Losses:  10.438431739807129 4.906018257141113 -0.0
+CurrentTrain: epoch  6, batch    34 | loss: 10.4384317Losses:  10.411903381347656 4.232782363891602 -0.0
+CurrentTrain: epoch  6, batch    35 | loss: 10.4119034Losses:  10.643579483032227 4.4836554527282715 -0.0
+CurrentTrain: epoch  6, batch    36 | loss: 10.6435795Losses:  7.034775257110596 0.502267062664032 -0.0
+CurrentTrain: epoch  6, batch    37 | loss: 7.0347753Losses:  18.459115982055664 11.340572357177734 -0.0
+CurrentTrain: epoch  7, batch     0 | loss: 18.4591160Losses:  10.085184097290039 4.380746364593506 -0.0
+CurrentTrain: epoch  7, batch     1 | loss: 10.0851841Losses:  12.820067405700684 6.876091003417969 -0.0
+CurrentTrain: epoch  7, batch     2 | loss: 12.8200674Losses:  11.82792854309082 6.892887115478516 -0.0
+CurrentTrain: epoch  7, batch     3 | loss: 11.8279285Losses:  12.166813850402832 5.900861740112305 -0.0
+CurrentTrain: epoch  7, batch     4 | loss: 12.1668139Losses:  10.880205154418945 5.3256683349609375 -0.0
+CurrentTrain: epoch  7, batch     5 | loss: 10.8802052Losses:  11.311391830444336 4.803691387176514 -0.0
+CurrentTrain: epoch  7, batch     6 | loss: 11.3113918Losses:  10.255412101745605 4.644718170166016 -0.0
+CurrentTrain: epoch  7, batch     7 | loss: 10.2554121Losses:  12.086668968200684 6.103064060211182 -0.0
+CurrentTrain: epoch  7, batch     8 | loss: 12.0866690Losses:  11.616254806518555 6.018451690673828 -0.0
+CurrentTrain: epoch  7, batch     9 | loss: 11.6162548Losses:  10.697004318237305 4.729192733764648 -0.0
+CurrentTrain: epoch  7, batch    10 | loss: 10.6970043Losses:  12.08432388305664 5.752371788024902 -0.0
+CurrentTrain: epoch  7, batch    11 | loss: 12.0843239Losses:  10.468228340148926 4.49196720123291 -0.0
+CurrentTrain: epoch  7, batch    12 | loss: 10.4682283Losses:  11.830930709838867 5.5779218673706055 -0.0
+CurrentTrain: epoch  7, batch    13 | loss: 11.8309307Losses:  13.22970962524414 7.401015758514404 -0.0
+CurrentTrain: epoch  7, batch    14 | loss: 13.2297096Losses:  9.866267204284668 4.138466835021973 -0.0
+CurrentTrain: epoch  7, batch    15 | loss: 9.8662672Losses:  10.01021957397461 4.494651794433594 -0.0
+CurrentTrain: epoch  7, batch    16 | loss: 10.0102196Losses:  11.002747535705566 5.712023735046387 -0.0
+CurrentTrain: epoch  7, batch    17 | loss: 11.0027475Losses:  10.9463529586792 5.496161460876465 -0.0
+CurrentTrain: epoch  7, batch    18 | loss: 10.9463530Losses:  11.653575897216797 6.139019012451172 -0.0
+CurrentTrain: epoch  7, batch    19 | loss: 11.6535759Losses:  12.450311660766602 5.909857273101807 -0.0
+CurrentTrain: epoch  7, batch    20 | loss: 12.4503117Losses:  10.482772827148438 5.135659217834473 -0.0
+CurrentTrain: epoch  7, batch    21 | loss: 10.4827728Losses:  13.048089027404785 5.514956951141357 -0.0
+CurrentTrain: epoch  7, batch    22 | loss: 13.0480890Losses:  15.944955825805664 9.5030517578125 -0.0
+CurrentTrain: epoch  7, batch    23 | loss: 15.9449558Losses:  10.837669372558594 5.444874286651611 -0.0
+CurrentTrain: epoch  7, batch    24 | loss: 10.8376694Losses:  12.235133171081543 6.681118011474609 -0.0
+CurrentTrain: epoch  7, batch    25 | loss: 12.2351332Losses:  14.799457550048828 8.851336479187012 -0.0
+CurrentTrain: epoch  7, batch    26 | loss: 14.7994576Losses:  11.688630104064941 6.102565765380859 -0.0
+CurrentTrain: epoch  7, batch    27 | loss: 11.6886301Losses:  14.652366638183594 7.871180534362793 -0.0
+CurrentTrain: epoch  7, batch    28 | loss: 14.6523666Losses:  10.079581260681152 4.747052192687988 -0.0
+CurrentTrain: epoch  7, batch    29 | loss: 10.0795813Losses:  10.349418640136719 4.811605453491211 -0.0
+CurrentTrain: epoch  7, batch    30 | loss: 10.3494186Losses:  11.499105453491211 6.000450611114502 -0.0
+CurrentTrain: epoch  7, batch    31 | loss: 11.4991055Losses:  9.835744857788086 4.3478240966796875 -0.0
+CurrentTrain: epoch  7, batch    32 | loss: 9.8357449Losses:  10.353445053100586 5.29832649230957 -0.0
+CurrentTrain: epoch  7, batch    33 | loss: 10.3534451Losses:  11.656904220581055 6.593899726867676 -0.0
+CurrentTrain: epoch  7, batch    34 | loss: 11.6569042Losses:  8.659388542175293 3.502539873123169 -0.0
+CurrentTrain: epoch  7, batch    35 | loss: 8.6593885Losses:  10.538361549377441 5.3056488037109375 -0.0
+CurrentTrain: epoch  7, batch    36 | loss: 10.5383615Losses:  6.6233062744140625 1.5790214538574219 -0.0
+CurrentTrain: epoch  7, batch    37 | loss: 6.6233063Losses:  11.168295860290527 6.136012554168701 -0.0
+CurrentTrain: epoch  8, batch     0 | loss: 11.1682959Losses:  9.311370849609375 4.225313186645508 -0.0
+CurrentTrain: epoch  8, batch     1 | loss: 9.3113708Losses:  14.576095581054688 9.770105361938477 -0.0
+CurrentTrain: epoch  8, batch     2 | loss: 14.5760956Losses:  9.240439414978027 4.234133720397949 -0.0
+CurrentTrain: epoch  8, batch     3 | loss: 9.2404394Losses:  9.212385177612305 4.226428985595703 -0.0
+CurrentTrain: epoch  8, batch     4 | loss: 9.2123852Losses:  9.780877113342285 4.713907241821289 -0.0
+CurrentTrain: epoch  8, batch     5 | loss: 9.7808771Losses:  10.963882446289062 6.09468936920166 -0.0
+CurrentTrain: epoch  8, batch     6 | loss: 10.9638824Losses:  11.906119346618652 6.996827125549316 -0.0
+CurrentTrain: epoch  8, batch     7 | loss: 11.9061193Losses:  10.536499977111816 5.622941017150879 -0.0
+CurrentTrain: epoch  8, batch     8 | loss: 10.5365000Losses:  9.96550464630127 4.183094024658203 -0.0
+CurrentTrain: epoch  8, batch     9 | loss: 9.9655046Losses:  12.452486038208008 6.197786331176758 -0.0
+CurrentTrain: epoch  8, batch    10 | loss: 12.4524860Losses:  11.144857406616211 6.03754997253418 -0.0
+CurrentTrain: epoch  8, batch    11 | loss: 11.1448574Losses:  9.46464729309082 4.282462120056152 -0.0
+CurrentTrain: epoch  8, batch    12 | loss: 9.4646473Losses:  10.123777389526367 5.077143669128418 -0.0
+CurrentTrain: epoch  8, batch    13 | loss: 10.1237774Losses:  11.115795135498047 5.022884368896484 -0.0
+CurrentTrain: epoch  8, batch    14 | loss: 11.1157951Losses:  9.955265045166016 4.620253562927246 -0.0
+CurrentTrain: epoch  8, batch    15 | loss: 9.9552650Losses:  12.166105270385742 7.113696575164795 -0.0
+CurrentTrain: epoch  8, batch    16 | loss: 12.1661053Losses:  14.165877342224121 8.984969139099121 -0.0
+CurrentTrain: epoch  8, batch    17 | loss: 14.1658773Losses:  10.09269905090332 4.626902103424072 -0.0
+CurrentTrain: epoch  8, batch    18 | loss: 10.0926991Losses:  11.103739738464355 6.102225303649902 -0.0
+CurrentTrain: epoch  8, batch    19 | loss: 11.1037397Losses:  11.81498908996582 6.591500282287598 -0.0
+CurrentTrain: epoch  8, batch    20 | loss: 11.8149891Losses:  10.236043930053711 4.74565315246582 -0.0
+CurrentTrain: epoch  8, batch    21 | loss: 10.2360439Losses:  12.425580978393555 7.4362006187438965 -0.0
+CurrentTrain: epoch  8, batch    22 | loss: 12.4255810Losses:  10.804533004760742 4.997996807098389 -0.0
+CurrentTrain: epoch  8, batch    23 | loss: 10.8045330Losses:  11.216658592224121 5.821281433105469 -0.0
+CurrentTrain: epoch  8, batch    24 | loss: 11.2166586Losses:  9.772985458374023 4.8770751953125 -0.0
+CurrentTrain: epoch  8, batch    25 | loss: 9.7729855Losses:  13.14980697631836 6.857101917266846 -0.0
+CurrentTrain: epoch  8, batch    26 | loss: 13.1498070Losses:  11.508935928344727 6.416773796081543 -0.0
+CurrentTrain: epoch  8, batch    27 | loss: 11.5089359Losses:  10.103865623474121 5.217667579650879 -0.0
+CurrentTrain: epoch  8, batch    28 | loss: 10.1038656Losses:  13.73055648803711 8.318792343139648 -0.0
+CurrentTrain: epoch  8, batch    29 | loss: 13.7305565Losses:  9.978338241577148 5.114237308502197 -0.0
+CurrentTrain: epoch  8, batch    30 | loss: 9.9783382Losses:  14.734003067016602 9.710765838623047 -0.0
+CurrentTrain: epoch  8, batch    31 | loss: 14.7340031Losses:  10.796515464782715 5.991267204284668 -0.0
+CurrentTrain: epoch  8, batch    32 | loss: 10.7965155Losses:  9.525245666503906 4.5679144859313965 -0.0
+CurrentTrain: epoch  8, batch    33 | loss: 9.5252457Losses:  8.66230297088623 3.817373514175415 -0.0
+CurrentTrain: epoch  8, batch    34 | loss: 8.6623030Losses:  10.247469902038574 5.629602432250977 -0.0
+CurrentTrain: epoch  8, batch    35 | loss: 10.2474699Losses:  8.18745231628418 3.347158908843994 -0.0
+CurrentTrain: epoch  8, batch    36 | loss: 8.1874523Losses:  6.31785774230957 1.5727264881134033 -0.0
+CurrentTrain: epoch  8, batch    37 | loss: 6.3178577Losses:  10.5366792678833 5.197908401489258 -0.0
+CurrentTrain: epoch  9, batch     0 | loss: 10.5366793Losses:  14.357378005981445 8.93831729888916 -0.0
+CurrentTrain: epoch  9, batch     1 | loss: 14.3573780Losses:  8.72050666809082 3.859128475189209 -0.0
+CurrentTrain: epoch  9, batch     2 | loss: 8.7205067Losses:  9.941374778747559 5.175079345703125 -0.0
+CurrentTrain: epoch  9, batch     3 | loss: 9.9413748Losses:  9.93570327758789 5.025386333465576 -0.0
+CurrentTrain: epoch  9, batch     4 | loss: 9.9357033Losses:  9.882505416870117 5.051599502563477 -0.0
+CurrentTrain: epoch  9, batch     5 | loss: 9.8825054Losses:  10.081932067871094 5.252397060394287 -0.0
+CurrentTrain: epoch  9, batch     6 | loss: 10.0819321Losses:  9.530211448669434 4.684225082397461 -0.0
+CurrentTrain: epoch  9, batch     7 | loss: 9.5302114Losses:  8.283108711242676 3.453617811203003 -0.0
+CurrentTrain: epoch  9, batch     8 | loss: 8.2831087Losses:  14.526751518249512 9.678115844726562 -0.0
+CurrentTrain: epoch  9, batch     9 | loss: 14.5267515Losses:  10.853387832641602 5.974891185760498 -0.0
+CurrentTrain: epoch  9, batch    10 | loss: 10.8533878Losses:  12.334237098693848 7.576651573181152 -0.0
+CurrentTrain: epoch  9, batch    11 | loss: 12.3342371Losses:  9.124235153198242 4.214437484741211 -0.0
+CurrentTrain: epoch  9, batch    12 | loss: 9.1242352Losses:  9.543428421020508 4.6999664306640625 -0.0
+CurrentTrain: epoch  9, batch    13 | loss: 9.5434284Losses:  10.559741973876953 5.73345422744751 -0.0
+CurrentTrain: epoch  9, batch    14 | loss: 10.5597420Losses:  9.852227210998535 4.50064754486084 -0.0
+CurrentTrain: epoch  9, batch    15 | loss: 9.8522272Losses:  10.710283279418945 5.939416885375977 -0.0
+CurrentTrain: epoch  9, batch    16 | loss: 10.7102833Losses:  13.509897232055664 7.77384614944458 -0.0
+CurrentTrain: epoch  9, batch    17 | loss: 13.5098972Losses:  10.913269996643066 6.017583847045898 -0.0
+CurrentTrain: epoch  9, batch    18 | loss: 10.9132700Losses:  10.520723342895508 5.828102111816406 -0.0
+CurrentTrain: epoch  9, batch    19 | loss: 10.5207233Losses:  10.287590026855469 5.527010917663574 -0.0
+CurrentTrain: epoch  9, batch    20 | loss: 10.2875900Losses:  10.784153938293457 6.046614646911621 -0.0
+CurrentTrain: epoch  9, batch    21 | loss: 10.7841539Losses:  11.816865921020508 7.080754280090332 -0.0
+CurrentTrain: epoch  9, batch    22 | loss: 11.8168659Losses:  13.235184669494629 8.072059631347656 -0.0
+CurrentTrain: epoch  9, batch    23 | loss: 13.2351847Losses:  10.735182762145996 5.9003190994262695 -0.0
+CurrentTrain: epoch  9, batch    24 | loss: 10.7351828Losses:  9.817144393920898 5.078609943389893 -0.0
+CurrentTrain: epoch  9, batch    25 | loss: 9.8171444Losses:  11.777097702026367 6.206031322479248 -0.0
+CurrentTrain: epoch  9, batch    26 | loss: 11.7770977Losses:  10.883344650268555 6.1302947998046875 -0.0
+CurrentTrain: epoch  9, batch    27 | loss: 10.8833447Losses:  8.904050827026367 4.182191848754883 -0.0
+CurrentTrain: epoch  9, batch    28 | loss: 8.9040508Losses:  10.943111419677734 6.12785005569458 -0.0
+CurrentTrain: epoch  9, batch    29 | loss: 10.9431114Losses:  13.551786422729492 8.874063491821289 -0.0
+CurrentTrain: epoch  9, batch    30 | loss: 13.5517864Losses:  11.828797340393066 7.026386260986328 -0.0
+CurrentTrain: epoch  9, batch    31 | loss: 11.8287973Losses:  9.857305526733398 5.1513800621032715 -0.0
+CurrentTrain: epoch  9, batch    32 | loss: 9.8573055Losses:  11.047952651977539 5.350949287414551 -0.0
+CurrentTrain: epoch  9, batch    33 | loss: 11.0479527Losses:  15.40216064453125 7.560880661010742 -0.0
+CurrentTrain: epoch  9, batch    34 | loss: 15.4021606Losses:  9.9282865524292 5.070971488952637 -0.0
+CurrentTrain: epoch  9, batch    35 | loss: 9.9282866Losses:  11.17648696899414 6.123800277709961 -0.0
+CurrentTrain: epoch  9, batch    36 | loss: 11.1764870Losses:  6.318080425262451 0.7195076942443848 -0.0
+CurrentTrain: epoch  9, batch    37 | loss: 6.3180804
+[EVAL] batch:    0 | acc: 68.75%,  total acc: 68.75%   [EVAL] batch:    1 | acc: 37.50%,  total acc: 53.12%   [EVAL] batch:    2 | acc: 68.75%,  total acc: 58.33%   [EVAL] batch:    3 | acc: 43.75%,  total acc: 54.69%   [EVAL] batch:    4 | acc: 50.00%,  total acc: 53.75%   [EVAL] batch:    5 | acc: 62.50%,  total acc: 55.21%   [EVAL] batch:    6 | acc: 81.25%,  total acc: 58.93%   [EVAL] batch:    7 | acc: 100.00%,  total acc: 64.06%   [EVAL] batch:    8 | acc: 100.00%,  total acc: 68.06%   [EVAL] batch:    9 | acc: 93.75%,  total acc: 70.62%   [EVAL] batch:   10 | acc: 100.00%,  total acc: 73.30%   [EVAL] batch:   11 | acc: 100.00%,  total acc: 75.52%   [EVAL] batch:   12 | acc: 93.75%,  total acc: 76.92%   [EVAL] batch:   13 | acc: 75.00%,  total acc: 76.79%   [EVAL] batch:   14 | acc: 75.00%,  total acc: 76.67%   [EVAL] batch:   15 | acc: 75.00%,  total acc: 76.56%   [EVAL] batch:   16 | acc: 81.25%,  total acc: 76.84%   [EVAL] batch:   17 | acc: 68.75%,  total acc: 76.39%   [EVAL] batch:   18 | acc: 87.50%,  total acc: 76.97%   [EVAL] batch:   19 | acc: 93.75%,  total acc: 77.81%   [EVAL] batch:   20 | acc: 100.00%,  total acc: 78.87%   [EVAL] batch:   21 | acc: 100.00%,  total acc: 79.83%   [EVAL] batch:   22 | acc: 100.00%,  total acc: 80.71%   [EVAL] batch:   23 | acc: 93.75%,  total acc: 81.25%   [EVAL] batch:   24 | acc: 100.00%,  total acc: 82.00%   [EVAL] batch:   25 | acc: 100.00%,  total acc: 82.69%   [EVAL] batch:   26 | acc: 93.75%,  total acc: 83.10%   [EVAL] batch:   27 | acc: 100.00%,  total acc: 83.71%   [EVAL] batch:   28 | acc: 100.00%,  total acc: 84.27%   [EVAL] batch:   29 | acc: 81.25%,  total acc: 84.17%   [EVAL] batch:   30 | acc: 93.75%,  total acc: 84.48%   [EVAL] batch:   31 | acc: 93.75%,  total acc: 84.77%   [EVAL] batch:   32 | acc: 37.50%,  total acc: 83.33%   
+[EVAL] batch:    0 | acc: 68.75%,  total acc: 68.75%   [EVAL] batch:    1 | acc: 37.50%,  total acc: 53.12%   [EVAL] batch:    2 | acc: 68.75%,  total acc: 58.33%   [EVAL] batch:    3 | acc: 43.75%,  total acc: 54.69%   [EVAL] batch:    4 | acc: 50.00%,  total acc: 53.75%   [EVAL] batch:    5 | acc: 62.50%,  total acc: 55.21%   [EVAL] batch:    6 | acc: 81.25%,  total acc: 58.93%   [EVAL] batch:    7 | acc: 100.00%,  total acc: 64.06%   [EVAL] batch:    8 | acc: 100.00%,  total acc: 68.06%   [EVAL] batch:    9 | acc: 93.75%,  total acc: 70.62%   [EVAL] batch:   10 | acc: 100.00%,  total acc: 73.30%   [EVAL] batch:   11 | acc: 100.00%,  total acc: 75.52%   [EVAL] batch:   12 | acc: 93.75%,  total acc: 76.92%   [EVAL] batch:   13 | acc: 75.00%,  total acc: 76.79%   [EVAL] batch:   14 | acc: 75.00%,  total acc: 76.67%   [EVAL] batch:   15 | acc: 75.00%,  total acc: 76.56%   [EVAL] batch:   16 | acc: 81.25%,  total acc: 76.84%   [EVAL] batch:   17 | acc: 68.75%,  total acc: 76.39%   [EVAL] batch:   18 | acc: 87.50%,  total acc: 76.97%   [EVAL] batch:   19 | acc: 93.75%,  total acc: 77.81%   [EVAL] batch:   20 | acc: 100.00%,  total acc: 78.87%   [EVAL] batch:   21 | acc: 100.00%,  total acc: 79.83%   [EVAL] batch:   22 | acc: 100.00%,  total acc: 80.71%   [EVAL] batch:   23 | acc: 93.75%,  total acc: 81.25%   [EVAL] batch:   24 | acc: 100.00%,  total acc: 82.00%   [EVAL] batch:   25 | acc: 100.00%,  total acc: 82.69%   [EVAL] batch:   26 | acc: 93.75%,  total acc: 83.10%   [EVAL] batch:   27 | acc: 100.00%,  total acc: 83.71%   [EVAL] batch:   28 | acc: 100.00%,  total acc: 84.27%   [EVAL] batch:   29 | acc: 81.25%,  total acc: 84.17%   [EVAL] batch:   30 | acc: 93.75%,  total acc: 84.48%   [EVAL] batch:   31 | acc: 93.75%,  total acc: 84.77%   [EVAL] batch:   32 | acc: 37.50%,  total acc: 83.33%   
+cur_acc:  ['0.8333']
+his_acc:  ['0.8333']
+Clustering into  4  clusters
+Clusters:  [3 0 2 3 0 3 1 3 1 0 3]
+Losses:  16.834346771240234 8.283613204956055 1.428198218345642
+CurrentTrain: epoch  0, batch     0 | loss: 16.8343468Losses:  12.270187377929688 2.738111734390259 1.38971745967865
+CurrentTrain: epoch  0, batch     1 | loss: 12.2701874Losses:  16.40036392211914 8.033567428588867 1.4383816719055176
+CurrentTrain: epoch  1, batch     0 | loss: 16.4003639Losses:  8.508703231811523 2.2987372875213623 1.4238083362579346
+CurrentTrain: epoch  1, batch     1 | loss: 8.5087032Losses:  13.52771282196045 7.009099960327148 1.4036455154418945
+CurrentTrain: epoch  2, batch     0 | loss: 13.5277128Losses:  8.681018829345703 2.5243582725524902 1.4178466796875
+CurrentTrain: epoch  2, batch     1 | loss: 8.6810188Losses:  14.620630264282227 8.282312393188477 1.400250792503357
+CurrentTrain: epoch  3, batch     0 | loss: 14.6206303Losses:  7.649350166320801 3.1640117168426514 -0.0
+CurrentTrain: epoch  3, batch     1 | loss: 7.6493502Losses:  12.373390197753906 6.641977310180664 1.4527411460876465
+CurrentTrain: epoch  4, batch     0 | loss: 12.3733902Losses:  6.934383392333984 1.9475091695785522 1.4228246212005615
+CurrentTrain: epoch  4, batch     1 | loss: 6.9343834Losses:  11.810395240783691 7.389638900756836 1.4256781339645386
+CurrentTrain: epoch  5, batch     0 | loss: 11.8103952Losses:  7.044252395629883 2.498063802719116 1.4888046979904175
+CurrentTrain: epoch  5, batch     1 | loss: 7.0442524Losses:  11.017047882080078 6.363428115844727 1.4216502904891968
+CurrentTrain: epoch  6, batch     0 | loss: 11.0170479Losses:  5.980978488922119 1.9659407138824463 1.405615210533142
+CurrentTrain: epoch  6, batch     1 | loss: 5.9809785Losses:  10.645416259765625 6.764513969421387 1.4194540977478027
+CurrentTrain: epoch  7, batch     0 | loss: 10.6454163Losses:  7.699522972106934 3.2938156127929688 1.482271432876587
+CurrentTrain: epoch  7, batch     1 | loss: 7.6995230Losses:  11.299885749816895 7.142139434814453 1.4222030639648438
+CurrentTrain: epoch  8, batch     0 | loss: 11.2998857Losses:  6.649583339691162 2.9748377799987793 1.4000810384750366
+CurrentTrain: epoch  8, batch     1 | loss: 6.6495833Losses:  9.291412353515625 5.449665546417236 1.390122652053833
+CurrentTrain: epoch  9, batch     0 | loss: 9.2914124Losses:  4.6923699378967285 1.206765055656433 1.4067338705062866
+CurrentTrain: epoch  9, batch     1 | loss: 4.6923699
+Losses:  7.388863563537598 -0.0 3.917029857635498
+MemoryTrain:  epoch  0, batch     0 | loss: 7.3888636Losses:  6.7942352294921875 -0.0 3.8498103618621826
+MemoryTrain:  epoch  1, batch     0 | loss: 6.7942352Losses:  6.14207649230957 -0.0 3.775669813156128
+MemoryTrain:  epoch  2, batch     0 | loss: 6.1420765Losses:  4.755201816558838 -0.0 3.746009349822998
+MemoryTrain:  epoch  3, batch     0 | loss: 4.7552018Losses:  3.9086406230926514 -0.0 3.6491968631744385
+MemoryTrain:  epoch  4, batch     0 | loss: 3.9086406Losses:  4.219430446624756 -0.0 3.6265904903411865
+MemoryTrain:  epoch  5, batch     0 | loss: 4.2194304Losses:  4.363661289215088 -0.0 3.5876710414886475
+MemoryTrain:  epoch  6, batch     0 | loss: 4.3636613Losses:  4.432307720184326 -0.0 3.548840045928955
+MemoryTrain:  epoch  7, batch     0 | loss: 4.4323077Losses:  4.2335309982299805 -0.0 3.555173397064209
+MemoryTrain:  epoch  8, batch     0 | loss: 4.2335310Losses:  3.869880199432373 -0.0 3.4647464752197266
+MemoryTrain:  epoch  9, batch     0 | loss: 3.8698802
+[EVAL] batch:    0 | acc: 62.50%,  total acc: 62.50%   [EVAL] batch:    1 | acc: 87.50%,  total acc: 75.00%   [EVAL] batch:    2 | acc: 87.50%,  total acc: 79.17%   [EVAL] batch:    3 | acc: 75.00%,  total acc: 78.12%   [EVAL] batch:    4 | acc: 93.75%,  total acc: 81.25%   [EVAL] batch:    5 | acc: 100.00%,  total acc: 84.38%   [EVAL] batch:    6 | acc: 87.50%,  total acc: 84.82%   [EVAL] batch:    7 | acc: 87.50%,  total acc: 85.16%   [EVAL] batch:    8 | acc: 81.25%,  total acc: 84.72%   [EVAL] batch:    9 | acc: 75.00%,  total acc: 83.75%   [EVAL] batch:   10 | acc: 50.00%,  total acc: 80.68%   [EVAL] batch:   11 | acc: 75.00%,  total acc: 80.21%   [EVAL] batch:   12 | acc: 62.50%,  total acc: 78.85%   [EVAL] batch:   13 | acc: 6.25%,  total acc: 73.66%   
+[EVAL] batch:    0 | acc: 75.00%,  total acc: 75.00%   [EVAL] batch:    1 | acc: 62.50%,  total acc: 68.75%   [EVAL] batch:    2 | acc: 68.75%,  total acc: 68.75%   [EVAL] batch:    3 | acc: 62.50%,  total acc: 67.19%   [EVAL] batch:    4 | acc: 75.00%,  total acc: 68.75%   [EVAL] batch:    5 | acc: 68.75%,  total acc: 68.75%   [EVAL] batch:    6 | acc: 81.25%,  total acc: 70.54%   [EVAL] batch:    7 | acc: 100.00%,  total acc: 74.22%   [EVAL] batch:    8 | acc: 93.75%,  total acc: 76.39%   [EVAL] batch:    9 | acc: 93.75%,  total acc: 78.12%   [EVAL] batch:   10 | acc: 100.00%,  total acc: 80.11%   [EVAL] batch:   11 | acc: 87.50%,  total acc: 80.73%   [EVAL] batch:   12 | acc: 93.75%,  total acc: 81.73%   [EVAL] batch:   13 | acc: 68.75%,  total acc: 80.80%   [EVAL] batch:   14 | acc: 75.00%,  total acc: 80.42%   [EVAL] batch:   15 | acc: 56.25%,  total acc: 78.91%   [EVAL] batch:   16 | acc: 75.00%,  total acc: 78.68%   [EVAL] batch:   17 | acc: 62.50%,  total acc: 77.78%   [EVAL] batch:   18 | acc: 75.00%,  total acc: 77.63%   [EVAL] batch:   19 | acc: 87.50%,  total acc: 78.12%   [EVAL] batch:   20 | acc: 100.00%,  total acc: 79.17%   [EVAL] batch:   21 | acc: 100.00%,  total acc: 80.11%   [EVAL] batch:   22 | acc: 100.00%,  total acc: 80.98%   [EVAL] batch:   23 | acc: 100.00%,  total acc: 81.77%   [EVAL] batch:   24 | acc: 100.00%,  total acc: 82.50%   [EVAL] batch:   25 | acc: 100.00%,  total acc: 83.17%   [EVAL] batch:   26 | acc: 93.75%,  total acc: 83.56%   [EVAL] batch:   27 | acc: 100.00%,  total acc: 84.15%   [EVAL] batch:   28 | acc: 100.00%,  total acc: 84.70%   [EVAL] batch:   29 | acc: 81.25%,  total acc: 84.58%   [EVAL] batch:   30 | acc: 93.75%,  total acc: 84.88%   [EVAL] batch:   31 | acc: 93.75%,  total acc: 85.16%   [EVAL] batch:   32 | acc: 87.50%,  total acc: 85.23%   [EVAL] batch:   33 | acc: 68.75%,  total acc: 84.74%   [EVAL] batch:   34 | acc: 93.75%,  total acc: 85.00%   [EVAL] batch:   35 | acc: 75.00%,  total acc: 84.72%   [EVAL] batch:   36 | acc: 81.25%,  total acc: 84.63%   [EVAL] batch:   37 | acc: 100.00%,  total acc: 85.03%   [EVAL] batch:   38 | acc: 100.00%,  total acc: 85.42%   [EVAL] batch:   39 | acc: 81.25%,  total acc: 85.31%   [EVAL] batch:   40 | acc: 87.50%,  total acc: 85.37%   [EVAL] batch:   41 | acc: 81.25%,  total acc: 85.27%   [EVAL] batch:   42 | acc: 43.75%,  total acc: 84.30%   [EVAL] batch:   43 | acc: 68.75%,  total acc: 83.95%   [EVAL] batch:   44 | acc: 81.25%,  total acc: 83.89%   [EVAL] batch:   45 | acc: 18.75%,  total acc: 82.47%   [EVAL] batch:   46 | acc: 0.00%,  total acc: 80.72%   
+cur_acc:  ['0.8333', '0.7366']
+his_acc:  ['0.8333', '0.8072']
+Clustering into  7  clusters
+Clusters:  [5 0 6 5 0 5 2 5 2 0 5 5 4 3 1 0]
+Losses:  21.83236312866211 7.945693016052246 6.177879333496094
+CurrentTrain: epoch  0, batch     0 | loss: 21.8323631Losses:  15.15475845336914 3.898651123046875 3.6699509620666504
+CurrentTrain: epoch  0, batch     1 | loss: 15.1547585Losses:  18.274232864379883 6.248223304748535 5.972926616668701
+CurrentTrain: epoch  1, batch     0 | loss: 18.2742329Losses:  18.200719833374023 3.6941986083984375 5.976905345916748
+CurrentTrain: epoch  1, batch     1 | loss: 18.2007198Losses:  20.226192474365234 7.547521114349365 5.962620735168457
+CurrentTrain: epoch  2, batch     0 | loss: 20.2261925Losses:  13.713926315307617 1.9215550422668457 6.153625011444092
+CurrentTrain: epoch  2, batch     1 | loss: 13.7139263Losses:  18.24387550354004 7.105842113494873 5.944904327392578
+CurrentTrain: epoch  3, batch     0 | loss: 18.2438755Losses:  13.222494125366211 1.8299859762191772 5.723560333251953
+CurrentTrain: epoch  3, batch     1 | loss: 13.2224941Losses:  17.912403106689453 6.519264221191406 5.735324859619141
+CurrentTrain: epoch  4, batch     0 | loss: 17.9124031Losses:  13.104755401611328 2.7220065593719482 5.667275905609131
+CurrentTrain: epoch  4, batch     1 | loss: 13.1047554Losses:  17.072134017944336 6.285456657409668 5.858184337615967
+CurrentTrain: epoch  5, batch     0 | loss: 17.0721340Losses:  14.141979217529297 3.3053219318389893 5.719655990600586
+CurrentTrain: epoch  5, batch     1 | loss: 14.1419792Losses:  15.967658996582031 5.996663570404053 5.684146881103516
+CurrentTrain: epoch  6, batch     0 | loss: 15.9676590Losses:  12.962430953979492 1.8084886074066162 5.848346710205078
+CurrentTrain: epoch  6, batch     1 | loss: 12.9624310Losses:  19.14852523803711 8.174544334411621 5.723759174346924
+CurrentTrain: epoch  7, batch     0 | loss: 19.1485252Losses:  11.682048797607422 3.0277442932128906 5.605818271636963
+CurrentTrain: epoch  7, batch     1 | loss: 11.6820488Losses:  16.103620529174805 6.419004440307617 5.627723693847656
+CurrentTrain: epoch  8, batch     0 | loss: 16.1036205Losses:  11.11082649230957 2.887477397918701 3.389610528945923
+CurrentTrain: epoch  8, batch     1 | loss: 11.1108265Losses:  15.718643188476562 7.3944830894470215 5.623233318328857
+CurrentTrain: epoch  9, batch     0 | loss: 15.7186432Losses:  14.050192832946777 4.8486785888671875 3.358351707458496
+CurrentTrain: epoch  9, batch     1 | loss: 14.0501928
+Losses:  13.059049606323242 -0.0 10.972432136535645
+MemoryTrain:  epoch  0, batch     0 | loss: 13.0590496Losses:  13.545698165893555 -0.0 11.096261978149414
+MemoryTrain:  epoch  1, batch     0 | loss: 13.5456982Losses:  13.00330924987793 -0.0 10.990134239196777
+MemoryTrain:  epoch  2, batch     0 | loss: 13.0033092Losses:  12.88441276550293 -0.0 10.923946380615234
+MemoryTrain:  epoch  3, batch     0 | loss: 12.8844128Losses:  12.525545120239258 -0.0 10.900227546691895
+MemoryTrain:  epoch  4, batch     0 | loss: 12.5255451Losses:  12.479066848754883 -0.0 10.928750991821289
+MemoryTrain:  epoch  5, batch     0 | loss: 12.4790668Losses:  12.307043075561523 -0.0 10.901633262634277
+MemoryTrain:  epoch  6, batch     0 | loss: 12.3070431Losses:  12.44898796081543 -0.0 10.9210844039917
+MemoryTrain:  epoch  7, batch     0 | loss: 12.4489880Losses:  11.887661933898926 -0.0 10.865381240844727
+MemoryTrain:  epoch  8, batch     0 | loss: 11.8876619Losses:  11.850774765014648 -0.0 10.881009101867676
+MemoryTrain:  epoch  9, batch     0 | loss: 11.8507748
+[EVAL] batch:    0 | acc: 56.25%,  total acc: 56.25%   [EVAL] batch:    1 | acc: 93.75%,  total acc: 75.00%   [EVAL] batch:    2 | acc: 25.00%,  total acc: 58.33%   [EVAL] batch:    3 | acc: 18.75%,  total acc: 48.44%   [EVAL] batch:    4 | acc: 18.75%,  total acc: 42.50%   [EVAL] batch:    5 | acc: 31.25%,  total acc: 40.62%   [EVAL] batch:    6 | acc: 12.50%,  total acc: 36.61%   [EVAL] batch:    7 | acc: 6.25%,  total acc: 32.81%   
+[EVAL] batch:    0 | acc: 62.50%,  total acc: 62.50%   [EVAL] batch:    1 | acc: 43.75%,  total acc: 53.12%   [EVAL] batch:    2 | acc: 62.50%,  total acc: 56.25%   [EVAL] batch:    3 | acc: 43.75%,  total acc: 53.12%   [EVAL] batch:    4 | acc: 68.75%,  total acc: 56.25%   [EVAL] batch:    5 | acc: 62.50%,  total acc: 57.29%   [EVAL] batch:    6 | acc: 75.00%,  total acc: 59.82%   [EVAL] batch:    7 | acc: 93.75%,  total acc: 64.06%   [EVAL] batch:    8 | acc: 87.50%,  total acc: 66.67%   [EVAL] batch:    9 | acc: 75.00%,  total acc: 67.50%   [EVAL] batch:   10 | acc: 81.25%,  total acc: 68.75%   [EVAL] batch:   11 | acc: 87.50%,  total acc: 70.31%   [EVAL] batch:   12 | acc: 81.25%,  total acc: 71.15%   [EVAL] batch:   13 | acc: 68.75%,  total acc: 70.98%   [EVAL] batch:   14 | acc: 75.00%,  total acc: 71.25%   [EVAL] batch:   15 | acc: 56.25%,  total acc: 70.31%   [EVAL] batch:   16 | acc: 75.00%,  total acc: 70.59%   [EVAL] batch:   17 | acc: 62.50%,  total acc: 70.14%   [EVAL] batch:   18 | acc: 62.50%,  total acc: 69.74%   [EVAL] batch:   19 | acc: 81.25%,  total acc: 70.31%   [EVAL] batch:   20 | acc: 100.00%,  total acc: 71.73%   [EVAL] batch:   21 | acc: 100.00%,  total acc: 73.01%   [EVAL] batch:   22 | acc: 100.00%,  total acc: 74.18%   [EVAL] batch:   23 | acc: 100.00%,  total acc: 75.26%   [EVAL] batch:   24 | acc: 100.00%,  total acc: 76.25%   [EVAL] batch:   25 | acc: 100.00%,  total acc: 77.16%   [EVAL] batch:   26 | acc: 93.75%,  total acc: 77.78%   [EVAL] batch:   27 | acc: 100.00%,  total acc: 78.57%   [EVAL] batch:   28 | acc: 100.00%,  total acc: 79.31%   [EVAL] batch:   29 | acc: 93.75%,  total acc: 79.79%   [EVAL] batch:   30 | acc: 100.00%,  total acc: 80.44%   [EVAL] batch:   31 | acc: 100.00%,  total acc: 81.05%   [EVAL] batch:   32 | acc: 93.75%,  total acc: 81.44%   [EVAL] batch:   33 | acc: 62.50%,  total acc: 80.88%   [EVAL] batch:   34 | acc: 93.75%,  total acc: 81.25%   [EVAL] batch:   35 | acc: 75.00%,  total acc: 81.08%   [EVAL] batch:   36 | acc: 81.25%,  total acc: 81.08%   [EVAL] batch:   37 | acc: 87.50%,  total acc: 81.25%   [EVAL] batch:   38 | acc: 100.00%,  total acc: 81.73%   [EVAL] batch:   39 | acc: 81.25%,  total acc: 81.72%   [EVAL] batch:   40 | acc: 100.00%,  total acc: 82.16%   [EVAL] batch:   41 | acc: 93.75%,  total acc: 82.44%   [EVAL] batch:   42 | acc: 87.50%,  total acc: 82.56%   [EVAL] batch:   43 | acc: 75.00%,  total acc: 82.39%   [EVAL] batch:   44 | acc: 100.00%,  total acc: 82.78%   [EVAL] batch:   45 | acc: 18.75%,  total acc: 81.39%   [EVAL] batch:   46 | acc: 50.00%,  total acc: 80.72%   [EVAL] batch:   47 | acc: 100.00%,  total acc: 81.12%   [EVAL] batch:   48 | acc: 25.00%,  total acc: 79.97%   [EVAL] batch:   49 | acc: 18.75%,  total acc: 78.75%   [EVAL] batch:   50 | acc: 18.75%,  total acc: 77.57%   [EVAL] batch:   51 | acc: 31.25%,  total acc: 76.68%   [EVAL] batch:   52 | acc: 12.50%,  total acc: 75.47%   [EVAL] batch:   53 | acc: 6.25%,  total acc: 74.19%   
+cur_acc:  ['0.8333', '0.7366', '0.3281']
+his_acc:  ['0.8333', '0.8072', '0.7419']
+Clustering into  9  clusters
+Clusters:  [0 2 3 0 2 0 8 0 1 2 0 0 7 5 4 2 6 3 0 1 0]
+Losses:  15.434223175048828 7.900637149810791 3.4298574924468994
+CurrentTrain: epoch  0, batch     0 | loss: 15.4342232Losses:  11.135409355163574 3.5540249347686768 3.3329436779022217
+CurrentTrain: epoch  0, batch     1 | loss: 11.1354094Losses:  13.066202163696289 6.3775954246521 3.365067958831787
+CurrentTrain: epoch  1, batch     0 | loss: 13.0662022Losses:  8.17519760131836 1.3415868282318115 3.3800597190856934
+CurrentTrain: epoch  1, batch     1 | loss: 8.1751976Losses:  14.027073860168457 7.441234111785889 3.349883794784546
+CurrentTrain: epoch  2, batch     0 | loss: 14.0270739Losses:  9.360206604003906 3.0283596515655518 3.3495020866394043
+CurrentTrain: epoch  2, batch     1 | loss: 9.3602066Losses:  13.478677749633789 6.523153305053711 3.5327677726745605
+CurrentTrain: epoch  3, batch     0 | loss: 13.4786777Losses:  8.15218734741211 1.7318090200424194 3.3519396781921387
+CurrentTrain: epoch  3, batch     1 | loss: 8.1521873Losses:  12.573225021362305 6.130372524261475 3.3615188598632812
+CurrentTrain: epoch  4, batch     0 | loss: 12.5732250Losses:  7.35554838180542 1.7380200624465942 3.3369364738464355
+CurrentTrain: epoch  4, batch     1 | loss: 7.3555484Losses:  12.55344009399414 6.657441139221191 3.3384194374084473
+CurrentTrain: epoch  5, batch     0 | loss: 12.5534401Losses:  5.621560096740723 2.1064324378967285 1.4238193035125732
+CurrentTrain: epoch  5, batch     1 | loss: 5.6215601Losses:  12.622171401977539 6.842011451721191 3.3535382747650146
+CurrentTrain: epoch  6, batch     0 | loss: 12.6221714Losses:  8.355399131774902 2.942301034927368 3.354830265045166
+CurrentTrain: epoch  6, batch     1 | loss: 8.3553991Losses:  11.35934829711914 5.834482192993164 3.3609354496002197
+CurrentTrain: epoch  7, batch     0 | loss: 11.3593483Losses:  6.863919258117676 1.6254929304122925 3.3367438316345215
+CurrentTrain: epoch  7, batch     1 | loss: 6.8639193Losses:  13.010324478149414 6.548063278198242 3.3634982109069824
+CurrentTrain: epoch  8, batch     0 | loss: 13.0103245Losses:  7.75508975982666 1.7116905450820923 3.3418374061584473
+CurrentTrain: epoch  8, batch     1 | loss: 7.7550898Losses:  12.430961608886719 5.961358070373535 3.3591535091400146
+CurrentTrain: epoch  9, batch     0 | loss: 12.4309616Losses:  7.096254348754883 1.9329838752746582 3.337136745452881
+CurrentTrain: epoch  9, batch     1 | loss: 7.0962543
+Losses:  17.046039581298828 -0.0 13.93989086151123
+MemoryTrain:  epoch  0, batch     0 | loss: 17.0460396Losses:  5.016233444213867 -0.0 3.365593910217285
+MemoryTrain:  epoch  0, batch     1 | loss: 5.0162334Losses:  13.620326042175293 -0.0 10.928035736083984
+MemoryTrain:  epoch  1, batch     0 | loss: 13.6203260Losses:  4.777379035949707 -0.0 3.345099925994873
+MemoryTrain:  epoch  1, batch     1 | loss: 4.7773790Losses:  16.59556770324707 -0.0 14.001388549804688
+MemoryTrain:  epoch  2, batch     0 | loss: 16.5955677Losses:  4.230289459228516 -0.0 3.333327531814575
+MemoryTrain:  epoch  2, batch     1 | loss: 4.2302895Losses:  18.325239181518555 -0.0 16.9507999420166
+MemoryTrain:  epoch  3, batch     0 | loss: 18.3252392Losses:  6.3224639892578125 -0.0 3.351309061050415
+MemoryTrain:  epoch  3, batch     1 | loss: 6.3224640Losses:  12.429165840148926 -0.0 10.97926139831543
+MemoryTrain:  epoch  4, batch     0 | loss: 12.4291658Losses:  4.986761569976807 -0.0 3.312227725982666
+MemoryTrain:  epoch  4, batch     1 | loss: 4.9867616Losses:  14.81710147857666 -0.0 13.750370979309082
+MemoryTrain:  epoch  5, batch     0 | loss: 14.8171015Losses:  3.6246142387390137 -0.0 1.4893198013305664
+MemoryTrain:  epoch  5, batch     1 | loss: 3.6246142Losses:  12.097736358642578 -0.0 10.958148956298828
+MemoryTrain:  epoch  6, batch     0 | loss: 12.0977364Losses:  4.273515701293945 -0.0 3.3071351051330566
+MemoryTrain:  epoch  6, batch     1 | loss: 4.2735157Losses:  14.586185455322266 -0.0 13.735115051269531
+MemoryTrain:  epoch  7, batch     0 | loss: 14.5861855Losses:  0.7618528008460999 -0.0 -0.0
+MemoryTrain:  epoch  7, batch     1 | loss: 0.7618528Losses:  14.759263038635254 -0.0 13.970521926879883
+MemoryTrain:  epoch  8, batch     0 | loss: 14.7592630Losses:  5.596408843994141 -0.0 5.5819878578186035
+MemoryTrain:  epoch  8, batch     1 | loss: 5.5964088Losses:  14.082735061645508 -0.0 13.723917007446289
+MemoryTrain:  epoch  9, batch     0 | loss: 14.0827351Losses:  4.674812316894531 -0.0 3.5032434463500977
+MemoryTrain:  epoch  9, batch     1 | loss: 4.6748123
