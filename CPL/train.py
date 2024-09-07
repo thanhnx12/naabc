@@ -335,7 +335,7 @@ if __name__ == '__main__':
         config.rel_index = './data/CFRLFewRel/rel_index.npy'
         config.relation_name = './data/CFRLFewRel/relation_name.txt'
         config.relation_description = './data/CFRLFewRel/relation_description.txt'
-        config.relation_embedding = './data/CFRLFewRel/relation_embeddings.pkl'
+        config.relation_embedding = './data/CFRLFewRel/relation_embeddings_1.pkl'
         if config.num_k == 5:
             config.rel_cluster_label = './data/CFRLFewRel/CFRLdata_10_100_10_5/rel_cluster_label_0.npy'
             config.training_data = './data/CFRLFewRel/CFRLdata_10_100_10_5/train_0.txt'
@@ -347,7 +347,7 @@ if __name__ == '__main__':
             config.valid_data = './data/CFRLFewRel/CFRLdata_10_100_10_10/valid_0.txt'
             config.test_data = './data/CFRLFewRel/CFRLdata_10_100_10_10/test_0.txt'
     else:
-        config.relation_embedding = './data/CFRLTacred/relation_embeddings.pkl'
+        config.relation_embedding = './data/CFRLTacred/relation_embeddings_1.pkl'
         config.rel_index = './data/CFRLTacred/rel_index.npy'
         config.relation_name = './data/CFRLTacred/relation_name.txt'
         config.relation_description = './data/CFRLTacred/relation_description.txt'

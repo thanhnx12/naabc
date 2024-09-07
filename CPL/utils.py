@@ -135,18 +135,35 @@ class Moment:
 # for openai
 @retry(tries=10, delay=1)
 def gpt(input, t=0, key=None):
-    time.sleep(1)
-    openai.api_key = key
-    completion = openai.ChatCompletion.create(
-        model='gpt-3.5-turbo',
-        messages=[{"role": "user", "content": input}],
-        temperature=t
-    )
-    return completion.choices[0].message.content
+    MAX_TRIES = 15
+    client = openai.OpenAI(api_key=)
+    
+    while MAX_TRIES > 0:
+        try:
+            time.sleep(5)
+            completion = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "user", "content": input}
+            ]
+            ,
+            temperature=t
+
+            )
+            return completion.choices[0].message.content
+        except Exception as e:
+            print(e)
+            MAX_TRIES -= 1
+    print('gen failed')
+    return ''
+    
+
+
+
 
 def parse(rel2id, text):
     cons = ['Relation:', 'Context:', 'Head Entity:', 'Tail Entity:']
-    lens = [ len(item) for item in cons]
+    lens = [len(item) for item in cons]
     parse_text = []
 
     temp = text
@@ -154,19 +171,24 @@ def parse(rel2id, text):
         parse_item = {}
 
         i = temp.find(cons[0])
-        temp = temp[i+lens[0]:]
+        temp = temp[i + lens[0]:]
         i = temp.find(cons[1])
         r = temp[:i].strip()
-        temp = temp[i+lens[1]:]
+        temp = temp[i + lens[1]:]
         i = temp.find(cons[2])
         c = temp[:i].strip()
-        temp = temp[i+lens[2]:]
+        temp = temp[i + lens[2]:]
         i = temp.find(cons[3])
         h = temp[:i].strip()
-        temp = temp[i+lens[3]:]
+        temp = temp[i + lens[3]:]
         i = temp.find('\n')
         t = temp[:i].strip()
         i = temp.find(cons[0])
+
+        r = r.split('\n')[0]
+        r = r.replace('**', '')
+        r = r.replace('\n', '')
+        r = r.strip()
 
         parse_item['relation'] = rel2id[r]
         parse_item['index'] = 0
@@ -182,7 +204,7 @@ def parse(rel2id, text):
         try:
             h2 = tokens.index(h_tokens[-1])
         except Exception:
-            h2 = h1        
+            h2 = h1
         try:
             t1 = tokens.index(t_tokens[0])
         except Exception:
@@ -190,7 +212,7 @@ def parse(rel2id, text):
         try:
             t2 = tokens.index(t_tokens[-1])
         except Exception:
-            t2 = t1             
+            t2 = t1
         parse_item['h'] = [headent, '0', [[h1, h2]]]
         parse_item['t'] = [tailent, '0', [[t1, t2]]]
 
@@ -202,38 +224,48 @@ def parse(rel2id, text):
 
     return parse_text
 
+
 def prompt_input(rname, rdesc, sample=None, n=10):
+    pre_input = 'You are a data scientist working on a relation extraction task. Please do the following task and do not give output in the markdown format.'
     input = ''
     if sample == None:
         input = 'One sample in relation extraction datasets consists of a relation, a context, a pair of head and tail entities in the context.The head entity has the relation with the tail entity. Generate ' \
-            + str(n) + ' diversity samples for the relation "'+ rname \
-            + '" which means ' + rdesc \
-            + ', and indicate the head entity and tail entity in the following format:\n' \
-            + 'Relation: xxx\nContext: xxx\nHead Entity: xxx\nTail Entity: xxx'
+                + str(
+            n) + ' diversity samples (must have full : Relation , Context , Head Entity , Tail Entity) for the relation "' + rname \
+                + '" which means ' + rdesc \
+                + ', and indicate the head entity and tail entity in the following format:\n' \
+                + 'Relation: xxx\nContext: xxx\nHead Entity: xxx\nTail Entity: xxx'
     else:
         input = 'One sample in relation extraction datasets consists of a relation, a context, a pair of head and tail entities in the context.The head entity has the relation with the tail entity.\n' \
-            + 'Relation "' + rname + '" means ' + rdesc + '.\nHere is an example:\n' \
-            + 'Relation: ' + rname + '\nContext: ' + sample['tokens'] + '\nHead Entity: ' + sample['h'] + '\nTail Entity: ' + sample['t'] + '\n' \
-            + 'Please generate ' + str(n) + ' diversity samples like the above example for the relation "'+ rname + '":'
-    return input
+                + 'Relation "' + rname + '" means ' + rdesc + '.\nHere is an example:\n' \
+                + 'Relation: ' + rname + '\nContext: ' + sample['tokens'] + '\nHead Entity: ' + sample[
+                    'h'] + '\nTail Entity: ' + sample['t'] + '\n' \
+                + 'Please generate ' + str(
+            n) + ' diversity samples (must have full : Relation , Context , Head Entity , Tail Entity) like the above example for the relation "' + rname + '":'
+    return pre_input + input
 
 
 def gen_data(r2desc, rel2id, sample, n=10, t=0, key=None):
+    import random
+    MAX_TRIES = 15
     rname = sample['relation']
     rdesc = r2desc[rname]
-    print('####', rname ,'####')
+    print('####', rname, '####')
     input = prompt_input(rname, rdesc, sample=sample, n=n)
     print(input)
     output = gpt(input=input, t=t, key=key)
     print(output)
-    parse_output = parse(rel2id, output)
+    while MAX_TRIES > 0:
+        try:
+            parse_output = parse(rel2id, output)
+            return parse_output
+        except Exception as e:
+            print(e)
+            t = random.uniform(0.5, 1)
+            output = gpt(input=input + "\nRelation: ", t=t, key=key)
+            MAX_TRIES -= 1
 
-
-    return parse_output
-
-
-
-
+    return ''
 
 
 
