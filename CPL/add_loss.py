@@ -705,11 +705,14 @@ class ClusterLoss(nn.Module):
         #  Scale the similarity matrix by the temperature
         logits = similarity_matrix / temperature
         
+        cluster_labels = cluster_labels.unsqueeze(0)  # Shape: (1, num_clusters)
+        positive_mask = torch.eq(cluster_labels, cluster_labels.T).float().to(embeddings.device)
+        
         mask = torch.eye(logits.shape[0], dtype=torch.bool).to(embeddings.device)
-        logits = logits.masked_fill(mask, float('-inf'))
+        # logits = logits.masked_fill(mask, float('-inf'))
     
-        log_prob = F.log_softmax(logits, dim=1).masked_fill(mask, 0)
+        log_prob = F.log_softmax(logits, dim=1)
 
-        loss = - ( log_prob).sum(1).mean()
+        loss = - ( positive_mask*log_prob).sum(1).mean()
         
         return loss
