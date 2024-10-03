@@ -1,0 +1,56 @@
+#############params############
+cuda
+Task=FewRel, 5-shot
+Encoding model: bert
+pattern=hardprompt
+mem=1, margin=0.3, gen=0, gen_num=2
+#############params############
+--------Round  0
+seed:  100
+data/CFRLFewRel/CFRLdata_10_100_10_5/_process_BERT_hardprompt/train.pkl
+data/CFRLFewRel/CFRLdata_10_100_10_5/_process_BERT_hardprompt/valid.pkl
+data/CFRLFewRel/CFRLdata_10_100_10_5/_process_BERT_hardprompt/test.pkl
+Task_order: [7 3 0 5 4 1 6 2]
+prepared data!
+#############params############
+cuda
+Task=FewRel, 5-shot
+Encoding model: bert
+pattern=hardprompt
+mem=1, margin=0.3, gen=0, gen_num=2
+#############params############
+--------Round  0
+seed:  100
+data/CFRLFewRel/CFRLdata_10_100_10_5/_process_BERT_hardprompt/train.pkl
+data/CFRLFewRel/CFRLdata_10_100_10_5/_process_BERT_hardprompt/valid.pkl
+data/CFRLFewRel/CFRLdata_10_100_10_5/_process_BERT_hardprompt/test.pkl
+Task_order: [7 3 0 5 4 1 6 2]
+prepared data!
+#############params############
+cuda
+Task=FewRel, 5-shot
+Encoding model: bert
+pattern=hardprompt
+mem=1, margin=0.3, gen=0, gen_num=2
+#############params############
+--------Round  0
+seed:  100
+data/CFRLFewRel/CFRLdata_10_100_10_5/_process_BERT_hardprompt/train.pkl
+data/CFRLFewRel/CFRLdata_10_100_10_5/_process_BERT_hardprompt/valid.pkl
+data/CFRLFewRel/CFRLdata_10_100_10_5/_process_BERT_hardprompt/test.pkl
+Task_order: [7 3 0 5 4 1 6 2]
+prepared data!
+#############params############
+cuda
+Task=FewRel, 5-shot
+Encoding model: bert
+pattern=hardprompt
+mem=1, margin=0.3, gen=0, gen_num=2
+#############params############
+--------Round  0
+seed:  100
+data/CFRLFewRel/CFRLdata_10_100_10_5/_process_BERT_hardprompt/train.pkl
+data/CFRLFewRel/CFRLdata_10_100_10_5/_process_BERT_hardprompt/valid.pkl
+data/CFRLFewRel/CFRLdata_10_100_10_5/_process_BERT_hardprompt/test.pkl
+Task_order: [7 3 0 5 4 1 6 2]
+prepared data!

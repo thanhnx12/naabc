@@ -1,0 +1,315 @@
+#############params############
+cuda
+Task=Tacred, 5-shot
+Encoding model: bert
+pattern=hybridprompt
+mem=1, margin=0.3, gen=0, gen_num=2
+#############params############
+--------Round  0
+seed:  100
+data/CFRLTacred/CFRLdata_6_100_5_5/_process_BERT_hybridprompt_12token/train.pkl
+data/CFRLTacred/CFRLdata_6_100_5_5/_process_BERT_hybridprompt_12token/valid.pkl
+data/CFRLTacred/CFRLdata_6_100_5_5/_process_BERT_hybridprompt_12token/test.pkl
+Task_order: [7 3 0 5 4 1 6 2]
+prepared data!
+[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch     0 | loss: 8.1773758[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch     1 | loss: 9.7008305[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch     2 | loss: 9.5041323[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch     3 | loss: 9.6947861[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch     4 | loss: 9.4652929[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch     5 | loss: 8.3755541[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch     6 | loss: 9.6546373[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch     7 | loss: 9.3479633[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch     8 | loss: 9.5182180[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch     9 | loss: 9.7677546[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    10 | loss: 8.3588018[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    11 | loss: 9.6354418[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    12 | loss: 9.4989100[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    13 | loss: 9.6673021[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    14 | loss: 9.4238319[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    15 | loss: 9.5982924[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    16 | loss: 9.5024452[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    17 | loss: 9.8246756[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    18 | loss: 9.8379936[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    19 | loss: 9.5839682[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    20 | loss: 8.5429277[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    21 | loss: 9.6551332[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    22 | loss: 9.4409628[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    23 | loss: 9.6580639[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    24 | loss: 9.4536495[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    25 | loss: 9.4384489[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    26 | loss: 9.8778839[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    27 | loss: 9.6460180[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    28 | loss: 9.7075281[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    29 | loss: 9.8147249[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    30 | loss: 9.7932444[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    31 | loss: 9.6605062[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    32 | loss: 9.8617611[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    33 | loss: 9.3974447[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    34 | loss: 9.4981308[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    35 | loss: 9.6812572[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    36 | loss: 8.3181114[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    37 | loss: 9.2262611[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    38 | loss: 8.0708704[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    39 | loss: 9.8818808[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    40 | loss: 9.3511839[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    41 | loss: 9.4901752[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    42 | loss: 8.3858995[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    43 | loss: 9.3774881[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    44 | loss: 9.2293310[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    45 | loss: 9.2155399[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    46 | loss: 9.0265427[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    47 | loss: 8.5338831[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    48 | loss: 8.0014095[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    49 | loss: 9.3203487[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    50 | loss: 9.1127625[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    51 | loss: 9.5851526[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    52 | loss: 9.1506138[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    53 | loss: 8.9627542[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    54 | loss: 9.2380342[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    55 | loss: 8.2765369[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    56 | loss: 8.4837685[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    57 | loss: 9.1601677[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    58 | loss: 8.2915478[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    59 | loss: 8.4126110[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    60 | loss: 8.9998589[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    61 | loss: 7.8507242[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    62 | loss: 8.0752554[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    63 | loss: 9.0382004[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    64 | loss: 9.1945744[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    65 | loss: 8.7955923[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    66 | loss: 8.3290710[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    67 | loss: 8.4526005[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    68 | loss: 8.2756462[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    69 | loss: 8.3219042[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    70 | loss: 7.8787546[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    71 | loss: 8.4170685[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    72 | loss: 8.0653162[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    73 | loss: 8.3445320[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    74 | loss: 8.4492302[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    75 | loss: 8.1030741[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    76 | loss: 7.9705606[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    77 | loss: 8.2311344[0 0 0 0 0 0]
+CurrentTrain: epoch  0, batch    78 | loss: 8.3762207[0 1 0 0 0 0]
+CurrentTrain: epoch  0, batch    79 | loss: 9.0948887[0 1 0 0 0 0]
+CurrentTrain: epoch  0, batch    80 | loss: 8.0615950[1 0 0 1 1 0]
+CurrentTrain: epoch  0, batch    81 | loss: 9.1854496[1 0 0 1 1 0]
+CurrentTrain: epoch  0, batch    82 | loss: 7.4536219[1 0 0 1 1 0]
+CurrentTrain: epoch  0, batch    83 | loss: 7.7463951[1 0 0 1 1 0]
+CurrentTrain: epoch  0, batch    84 | loss: 8.1823006[1 0 0 1 1 0]
+CurrentTrain: epoch  0, batch    85 | loss: 9.7426434[0 2 1 0 0 1]
+CurrentTrain: epoch  0, batch    86 | loss: 10.7064610[0 1 1 0 0 1]
+CurrentTrain: epoch  0, batch    87 | loss: 8.1700306[1 0 0 1 1 0]
+CurrentTrain: epoch  0, batch    88 | loss: 9.8935089[1 0 0 1 1 0]
+CurrentTrain: epoch  0, batch    89 | loss: 7.6988974[1 0 2 1 0 2]
+CurrentTrain: epoch  0, batch    90 | loss: 8.9187241[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch    91 | loss: 8.2411556[0 1 1 0 0 1]
+CurrentTrain: epoch  0, batch    92 | loss: 7.8727779[1 0 0 1 0 0]
+CurrentTrain: epoch  0, batch    93 | loss: 7.8717995[1 0 0 1 0 0]
+CurrentTrain: epoch  0, batch    94 | loss: 7.9117231[1 0 2 1 0 2]
+CurrentTrain: epoch  0, batch    95 | loss: 8.0103331[0 1 1 0 0 1]
+CurrentTrain: epoch  0, batch    96 | loss: 7.2719579[1 0 2 1 0 2]
+CurrentTrain: epoch  0, batch    97 | loss: 10.0043879[1 0 0 1 1 0]
+CurrentTrain: epoch  0, batch    98 | loss: 8.6847420[1 0 2 1 0 2]
+CurrentTrain: epoch  0, batch    99 | loss: 7.6976624[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   100 | loss: 8.0452948[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   101 | loss: 7.8479772[1 0 0 1 0 0]
+CurrentTrain: epoch  0, batch   102 | loss: 7.9932771[0 1 1 0 0 1]
+CurrentTrain: epoch  0, batch   103 | loss: 7.5099764[1 0 2 1 0 2]
+CurrentTrain: epoch  0, batch   104 | loss: 8.5436697[1 0 2 1 0 2]
+CurrentTrain: epoch  0, batch   105 | loss: 7.3113203[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   106 | loss: 7.9139228[1 0 2 1 0 2]
+CurrentTrain: epoch  0, batch   107 | loss: 7.3684149[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   108 | loss: 7.7530708[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   109 | loss: 7.5841513[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   110 | loss: 8.6717777[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   111 | loss: 8.0746679[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   112 | loss: 7.3425951[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   113 | loss: 7.8553205[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   114 | loss: 7.4089551[0 1 0 0 1 0]
+CurrentTrain: epoch  0, batch   115 | loss: 7.4564800[1 0 2 1 0 2]
+CurrentTrain: epoch  0, batch   116 | loss: 8.4702549[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   117 | loss: 7.9085712[1 0 2 1 0 2]
+CurrentTrain: epoch  0, batch   118 | loss: 8.2375040[1 0 2 1 0 2]
+CurrentTrain: epoch  0, batch   119 | loss: 8.1281071[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   120 | loss: 7.3692064[1 0 2 1 0 2]
+CurrentTrain: epoch  0, batch   121 | loss: 7.5737939[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   122 | loss: 9.1899109[1 0 2 1 0 2]
+CurrentTrain: epoch  0, batch   123 | loss: 7.6004071[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   124 | loss: 7.7181711[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   125 | loss: 7.6282897[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   126 | loss: 7.7575817[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   127 | loss: 7.4663801[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   128 | loss: 7.6329002[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   129 | loss: 7.6630130[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   130 | loss: 7.3825178[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   131 | loss: 7.7818837[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   132 | loss: 9.0296993[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   133 | loss: 7.8808050[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   134 | loss: 7.3182144[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   135 | loss: 7.9670315[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   136 | loss: 7.2692771[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   137 | loss: 7.4058414[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   138 | loss: 7.5804152[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   139 | loss: 7.2054214[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   140 | loss: 8.0019493[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   141 | loss: 8.3223200[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   142 | loss: 7.2650032[0 1 0 0 1 0]
+CurrentTrain: epoch  0, batch   143 | loss: 7.6291151[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   144 | loss: 7.4164572[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   145 | loss: 7.8981395[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   146 | loss: 7.0674119[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   147 | loss: 8.0355091[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   148 | loss: 9.1276054[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   149 | loss: 7.0815101[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   150 | loss: 7.9781294[1 0 2 1 0 2]
+CurrentTrain: epoch  0, batch   151 | loss: 7.6515837[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   152 | loss: 7.7458992[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   153 | loss: 7.9591928[3 1 0 2 2 0]
+CurrentTrain: epoch  0, batch   154 | loss: 7.1120310[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   155 | loss: 7.3756256[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   156 | loss: 7.6084681[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   157 | loss: 9.9605350[1 0 2 1 0 2]
+CurrentTrain: epoch  0, batch   158 | loss: 9.1147633[3 2 0 1 1 0]
+CurrentTrain: epoch  0, batch   159 | loss: 7.5374432[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   160 | loss: 7.3210320[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   161 | loss: 7.1585760[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   162 | loss: 7.4994922[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   163 | loss: 7.3839970[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   164 | loss: 8.2841291[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   165 | loss: 7.3173676[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   166 | loss: 9.1653214[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   167 | loss: 7.4182029[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   168 | loss: 7.4804792[2 0 1 0 0 1]
+CurrentTrain: epoch  0, batch   169 | loss: 7.7878962[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   170 | loss: 10.2676859[0 2 1 0 0 1]
+CurrentTrain: epoch  0, batch   171 | loss: 7.5459208[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   172 | loss: 7.7652578[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   173 | loss: 7.6477852[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   174 | loss: 7.1671753[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   175 | loss: 6.9256387[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   176 | loss: 6.9529567[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   177 | loss: 8.7168188[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   178 | loss: 7.5481949[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   179 | loss: 6.9338236[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   180 | loss: 8.3391628[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   181 | loss: 7.8829365[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   182 | loss: 7.8109074[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   183 | loss: 8.4044704[2 3 0 1 1 0]
+CurrentTrain: epoch  0, batch   184 | loss: 7.4804454[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   185 | loss: 7.9624009[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   186 | loss: 8.6793289[1 0 2 1 0 2]
+CurrentTrain: epoch  0, batch   187 | loss: 7.6328688[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   188 | loss: 8.0463638[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   189 | loss: 8.4852638[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   190 | loss: 7.4558482[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   191 | loss: 7.3375940[1 3 0 1 2 0]
+CurrentTrain: epoch  0, batch   192 | loss: 7.0215068[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   193 | loss: 12.8309574[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   194 | loss: 7.1982212[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   195 | loss: 7.4959373[3 1 0 2 2 0]
+CurrentTrain: epoch  0, batch   196 | loss: 7.7744675[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   197 | loss: 6.8377514[3 2 1 0 0 1]
+CurrentTrain: epoch  0, batch   198 | loss: 7.0757160[3 1 0 2 2 0]
+CurrentTrain: epoch  0, batch   199 | loss: 7.1634922[3 1 0 2 2 0]
+CurrentTrain: epoch  0, batch   200 | loss: 7.4399853[3 2 0 1 1 0]
+CurrentTrain: epoch  0, batch   201 | loss: 7.4350853[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   202 | loss: 7.3500266[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   203 | loss: 7.5204701[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   204 | loss: 7.1792955[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   205 | loss: 6.9467130[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   206 | loss: 7.6361051[0 2 0 1 1 0]
+CurrentTrain: epoch  0, batch   207 | loss: 7.2954464[0 2 0 1 1 0]
+CurrentTrain: epoch  0, batch   208 | loss: 8.4116440[0 2 0 1 1 0]
+CurrentTrain: epoch  0, batch   209 | loss: 7.6363888[0 1 0 2 2 0]
+CurrentTrain: epoch  0, batch   210 | loss: 6.9300747[0 2 0 1 1 0]
+CurrentTrain: epoch  0, batch   211 | loss: 7.3319845[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   212 | loss: 8.2672758[0 2 0 1 1 0]
+CurrentTrain: epoch  0, batch   213 | loss: 7.1471386[0 2 0 1 1 0]
+CurrentTrain: epoch  0, batch   214 | loss: 7.0834036[0 1 0 2 2 0]
+CurrentTrain: epoch  0, batch   215 | loss: 7.1155872[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   216 | loss: 6.9100609[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   217 | loss: 7.0673208[2 0 1 2 0 1]
+CurrentTrain: epoch  0, batch   218 | loss: 7.2573252[0 2 0 1 1 0]
+CurrentTrain: epoch  0, batch   219 | loss: 7.6430111[0 1 0 2 2 0]
+CurrentTrain: epoch  0, batch   220 | loss: 7.0746546[0 1 0 2 2 0]
+CurrentTrain: epoch  0, batch   221 | loss: 7.1323700[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   222 | loss: 7.0678406[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   223 | loss: 9.0138702[1 2 3 0 0 1]
+CurrentTrain: epoch  0, batch   224 | loss: 7.0895963[0 2 0 1 1 0]
+CurrentTrain: epoch  0, batch   225 | loss: 7.6065245[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   226 | loss: 7.4127889[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   227 | loss: 9.8564634[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   228 | loss: 7.5838218[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   229 | loss: 6.8343759[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   230 | loss: 7.6812010[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   231 | loss: 7.2783966[1 3 0 1 2 0]
+CurrentTrain: epoch  0, batch   232 | loss: 7.7442031[1 2 0 1 3 0]
+CurrentTrain: epoch  0, batch   233 | loss: 7.2424226[1 2 0 1 3 0]
+CurrentTrain: epoch  0, batch   234 | loss: 7.6156569[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   235 | loss: 11.7932777[1 3 0 1 2 0]
+CurrentTrain: epoch  0, batch   236 | loss: 7.0599999[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   237 | loss: 7.0322089[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   238 | loss: 7.2396164[1 3 0 1 2 0]
+CurrentTrain: epoch  0, batch   239 | loss: 10.3597965[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   240 | loss: 7.3194962[0 2 1 0 3 1]
+CurrentTrain: epoch  0, batch   241 | loss: 6.6787362[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   242 | loss: 11.1222095[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   243 | loss: 6.7171407[1 2 0 1 3 0]
+CurrentTrain: epoch  0, batch   244 | loss: 6.7602921[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   245 | loss: 9.6379328[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   246 | loss: 6.6704464[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   247 | loss: 7.8986940[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   248 | loss: 7.7307668[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   249 | loss: 7.1154804[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   250 | loss: 6.8455954[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   251 | loss: 6.8640294[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   252 | loss: 7.6889925[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   253 | loss: 6.7412786[0 2 1 0 0 1]
+CurrentTrain: epoch  0, batch   254 | loss: 7.3948088[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   255 | loss: 7.3576231[1 2 0 1 3 0]
+CurrentTrain: epoch  0, batch   256 | loss: 7.0942154[0 2 1 0 0 1]
+CurrentTrain: epoch  0, batch   257 | loss: 6.7706475[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   258 | loss: 7.0844579[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   259 | loss: 7.0064211[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   260 | loss: 7.6325622[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   261 | loss: 6.6018858[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   262 | loss: 7.1888900[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   263 | loss: 7.2766304[1 2 0 1 3 0]
+CurrentTrain: epoch  0, batch   264 | loss: 6.5865011[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   265 | loss: 7.2016077[1 2 0 1 3 0]
+CurrentTrain: epoch  0, batch   266 | loss: 9.5615549[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   267 | loss: 7.7701616[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   268 | loss: 6.6898918[0 1 2 0 0 2]
+CurrentTrain: epoch  0, batch   269 | loss: 8.3222141[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   270 | loss: 6.8969388[0 2 1 0 0 1]
+CurrentTrain: epoch  0, batch   271 | loss: 8.0349836[0 2 1 0 3 1]
+CurrentTrain: epoch  0, batch   272 | loss: 6.4741898[1 2 0 1 3 0]
+CurrentTrain: epoch  0, batch   273 | loss: 7.1602397[0 2 1 0 3 1]
+CurrentTrain: epoch  0, batch   274 | loss: 6.9158688[0 2 1 0 0 1]
+CurrentTrain: epoch  0, batch   275 | loss: 7.7152328[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   276 | loss: 7.1959720[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   277 | loss: 6.7217340[0 2 1 0 3 1]
+CurrentTrain: epoch  0, batch   278 | loss: 6.9695239[0 2 1 0 3 1]
+CurrentTrain: epoch  0, batch   279 | loss: 6.9154234[0 2 1 0 3 1]
+CurrentTrain: epoch  0, batch   280 | loss: 6.7752032[0 2 1 0 3 1]
+CurrentTrain: epoch  0, batch   281 | loss: 7.7572632[1 2 0 1 3 0]
+CurrentTrain: epoch  0, batch   282 | loss: 6.9556093[1 2 0 1 3 0]
+CurrentTrain: epoch  0, batch   283 | loss: 7.1842189[2 3 0 2 1 0]
+CurrentTrain: epoch  0, batch   284 | loss: 6.6226697[1 2 0 1 3 0]
+CurrentTrain: epoch  0, batch   285 | loss: 6.6659298[1 2 0 1 3 0]
+CurrentTrain: epoch  0, batch   286 | loss: 6.5835419[0 2 1 0 3 1]
+CurrentTrain: epoch  0, batch   287 | loss: 8.2769156[0 2 1 0 3 1]
+CurrentTrain: epoch  0, batch   288 | loss: 7.5139971[0 2 1 0 3 1]
+CurrentTrain: epoch  0, batch   289 | loss: 7.8620224[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   290 | loss: 8.0818720[0 2 1 0 3 1]
+CurrentTrain: epoch  0, batch   291 | loss: 6.6361647[1 2 0 1 3 0]
+CurrentTrain: epoch  0, batch   292 | loss: 6.6475120[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   293 | loss: 7.2049475[1 3 0 1 2 0]
+CurrentTrain: epoch  0, batch   294 | loss: 7.3650227[0 2 1 0 3 1]
+CurrentTrain: epoch  0, batch   295 | loss: 6.5868874[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   296 | loss: 6.5821190[1 2 0 1 3 0]
+CurrentTrain: epoch  0, batch   297 | loss: 8.3089542[0 3 1 0 2 1]
+CurrentTrain: epoch  0, batch   298 | loss: 7.8066478[0 3 2 0 1 2]
+CurrentTrain: epoch  0, batch   299 | loss: 10.7212334
