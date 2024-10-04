@@ -12,41 +12,82 @@ class Moment:
     def __init__(self, config) -> None:
         self.config = config
         self.features = None
+        self.features_des = None
+
         self.labels = None
         self.mem_samples = None
         self.mem_features = None
         self.mem_labels = None
+        self.mem_features_des = None
         self.sample_k = config.sample_k
         self.temperature = config.contrastive_temp
         self.m = config.margin
-    
-    def init_moment(self, encoder, dataset, is_memory=False):
+        # self.mlp = torch.nn.Linear(4096, 768).to(config.device)
+
+    def init_moment(self, encoder, dataset, seen_des, id2rel, is_memory=False, is_llm = False):
         encoder.eval()
         datalen = len(dataset)
         if not is_memory:
-            self.features = torch.zeros(datalen, self.config.encoder_output_size)
+            self.features = torch.zeros(datalen, self.config.encoder_output_size, dtype=torch.bfloat16)
+            self.features_des = torch.zeros(datalen, self.config.encoder_output_size, dtype=torch.bfloat16)
+
             data_loader = get_data_loader_BERT(self.config, dataset) # shuffle=False
             lbs = []
             for step, (instance, labels, ind) in enumerate(data_loader):
                 for k in instance.keys():
-                    instance[k] = instance[k].to(self.config.device)
-                hidden = encoder(instance)
+                    if isinstance(instance[k], list):
+                        continue
+                    else:
+                        instance[k] = instance[k].to(self.config.device)
+                    
+
+                if is_llm:
+                    hidden = encoder(instance['input'])
+
+                    batch_instance = {'input': []}
+                    batch_instance['input'] = [seen_des[id2rel[label.item()]]['input'] for label in labels]
+                    hidden_des = encoder(batch_instance['input'])
+                else:
+                    hidden = encoder(instance)
+                    batch_instance = {'ids': [], 'mask': []} 
+                    batch_instance['ids'] = torch.tensor([seen_des[id2rel[label.item()]]['ids'] for label in labels]).to(self.config.device)
+                    batch_instance['mask'] = torch.tensor([seen_des[id2rel[label.item()]]['mask'] for label in labels]).to(self.config.device)
+                    hidden_des = encoder(batch_instance)
                 fea = hidden.detach().cpu().data
-                self.update(ind, fea)
+                fea_des = hidden_des.detach().cpu().data
+                self.update_des(ind, fea, fea_des)
+
                 lbs.append(labels) # shuffle=False
             lbs = torch.cat(lbs)
             self.labels = lbs
         else:
             self.mem_samples = dataset
-            self.mem_features = torch.zeros(datalen, self.config.encoder_output_size)
+            self.mem_features = torch.zeros(datalen, self.config.encoder_output_size, dtype=torch.bfloat16)
+            self.mem_features_des = torch.zeros(datalen, self.config.encoder_output_size, dtype=torch.bfloat16)
             data_loader = get_data_loader_BERT(self.config, dataset) # shuffle=False
             lbs = []
             for step, (instance, labels, ind) in enumerate(data_loader):
                 for k in instance.keys():
-                    instance[k] = instance[k].to(self.config.device)
-                hidden = encoder(instance)
+                    if isinstance(instance[k], list):
+                        continue
+                    else:
+                        instance[k] = instance[k].to(self.config.device)
+                if is_llm:
+                    hidden = encoder(instance['input'])
+
+                    batch_instance = {'input': []}
+                    batch_instance['input'] = [seen_des[id2rel[label.item()]]['input'] for label in labels]
+                    hidden_des = encoder(batch_instance['input'])
+                else:
+                    hidden = encoder(instance)
+                    batch_instance = {'ids': [], 'mask': []} 
+                    batch_instance['ids'] = torch.tensor([seen_des[id2rel[label.item()]]['ids'] for label in labels]).to(self.config.device)
+                    batch_instance['mask'] = torch.tensor([seen_des[id2rel[label.item()]]['mask'] for label in labels]).to(self.config.device)
+                    hidden_des = encoder(batch_instance)
                 fea = hidden.detach().cpu().data
-                self.update(ind, fea, is_memory)
+                fea_des = hidden_des.detach().cpu().data
+                self.update_des(ind, fea, fea_des)
+
                 lbs.append(labels) # shuffle=False
             lbs = torch.cat(lbs)
             self.mem_labels = lbs            
@@ -56,13 +97,28 @@ class Moment:
             self.features[ind] = feature
         else:
             self.mem_features[ind] = feature
-    
-    def update_allmem(self, encoder):
+
+    def update_des(self, ind, feature, feature_des, is_memory=False):
+        if not is_memory:
+            self.features[ind] = feature
+            self.features_des[ind] = feature_des
+        else:
+            self.mem_features[ind] = feature
+            self.mem_features_des[ind] = feature_des
+
+    def update_allmem(self, encoder, is_llm = False):
             data_loader = get_data_loader_BERT(self.config, self.mem_samples, batch_size=64) # shuffle=False
             for step, (instance, labels, ind) in enumerate(data_loader):
                 for k in instance.keys():
-                    instance[k] = instance[k].to(self.config.device)
-                hidden = encoder(instance)
+                    if isinstance(instance[k], list):
+                        continue
+                    else:
+                        instance[k] = instance[k].to(self.config.device)
+
+                if is_llm:
+                    hidden = encoder(instance['input'])
+                else:
+                    hidden = encoder(instance)
                 fea = hidden.detach().cpu().data
                 self.update(ind, fea, is_memory=True)
         

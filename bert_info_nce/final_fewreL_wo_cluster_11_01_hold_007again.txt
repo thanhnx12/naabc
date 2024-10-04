@@ -1,0 +1,14 @@
+#############params############
+cuda
+Task=FewRel, 5-shot
+Encoding model: bert
+pattern=hybridprompt
+mem=1, margin=0.3, gen=0, gen_num=2
+#############params############
+--------Round  0
+seed:  100
+data/CFRLFewRel/CFRLdata_10_100_10_5/_process_BERT_hybridprompt_12token/train.pkl
+data/CFRLFewRel/CFRLdata_10_100_10_5/_process_BERT_hybridprompt_12token/valid.pkl
+data/CFRLFewRel/CFRLdata_10_100_10_5/_process_BERT_hybridprompt_12token/test.pkl
+Task_order: [7 3 0 5 4 1 6 2]
+prepared data!

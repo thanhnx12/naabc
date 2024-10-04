@@ -236,7 +236,7 @@ class Manager(object):
                 #     # loss = 2*loss2 + 0.5*loss3 + 0.5*loss4
 
                 # else:
-                loss2 = self.moment.mutual_information_loss_cluster(hidden, rep_des, labels, temperature=0.01)  # Recompute loss2
+                loss2 = self.moment.mutual_information_loss_cluster(hidden, rep_des, labels, temperature=0.07)  # Recompute loss2
 
                 loss1 = self.moment.contrastive_loss(hidden, labels, is_memory)
 
